@@ -1,0 +1,186 @@
+-----Data Types----
+The  type of data in variables we  store  are called "Data Types"
+Java allows to use  different Kinds of data types. 
+Data is important part of a program.All the processing we do upon Data.
+Depending on the value we can select the DateType
+Here are Predefined Datatypes in java.
+1.Integral
+ a)byte
+ b)short
+ c)int
+ d)long
+2.Floating point
+ a)float
+ b)double
+3.Char 
+4.Boolean  
+---Range and size of the DataTypes---
+  Type    size(in bytes)
+  byte      1
+  short     2
+   int        4
+   long     8
+   float     4
+  double  8
+  char       2
+  boolean (not mentioned) 
+boolean only stores two values either true or false.Default value is false.
+byte,short,int,long all of them store the integer values only but they are vary in size.
+float and double are used to store the numbers with decimal points.
+float can store 6-7 values after the decimal point so it called as single precision.
+double can store 14-15values after the decimal point so it called as  double precision.It can store more precise values.
+char can store only positive values.
+
+-----Variables----
+Variables are used for storing the data in memory.
+During execution we can change the value of a variable.
+First we declare the variable then we have to store the data.
+Declaration of a variable:
+datatype variablename;
+int a;
+float f;
+Intialization  of a variable:
+int b=7;
+Whenever we declare a variable the memory is allocated for a variable.
+There are some rules are there to declare a variable:
+1.case sensitive
+2.contains Alphabets,Numbers,_,$
+eg:abc_12,ab$2
+3.Starts with Alphabet,_or$
+4.variable name should not be a keyword
+eg:if,else,abstract etc ..  there are some reserved words .These words can not be used as variables in programs
+5.should not be a class Name(if class name is in use)
+class name and variable name should not be same in a program.
+6.No Limit on Length of a variable name but try to use relevant name.
+Follow camelcase for naming of a variable.It is one of the convention 
+byte rollNumber;
+float averagrMarksOfStudent;
+
+
+Sample programs:
+class Variables
+{
+   public static void main(String args[])
+    {
+                   System.out.println(Integer.MIN_VALUE);
+	System.out.println(Integer.MAX_VALUE);
+	System.out.println(Integer.BYTES);
+	System.out.println(Integer.SIZE);
+	System.out.println(Float.MIN_VALUE);
+	System.out.println(Float.MAX_VALUE);
+	System.out.println(Float.BYTES);
+	System.out.println(Float.SIZE);
+	
+    }
+}
+//output 
+-2147483648
+2147483647
+4
+32
+1.4E-45
+3.4028235E38
+4
+32
+
+class Variables
+{
+   public static void main(String args[])
+    {
+                  int a=10;
+                    System.out.println(a);
+                   a=978;
+	System.out.println(a);
+    }
+}
+
+//output:
+10
+978
+
+----Literals----
+Literals  are constant values used in the program
+There are different types of Literals.
+* int literals-representing integer types
+*float and double literals-representing decimal type
+*char literals-representing characters in single quotes
+*string literals-representing characters in double quotes.
+Literals are written based upon datatypes.
+int literals can be represented indifferent number system
+Decimal
+Binary
+Octal
+HexaDecimal
+L or l -long
+F or f -Float
+D or d-Double
+' '-char
+true/false-Boolean
+
+//Sample programs
+ 
+class SampleLiterals
+{
+  public static void main(String args[])
+   {
+     byte b1=10;
+     byte b2=0b1010;
+     byte b3=012;
+     byte b4=0xA;
+     float f=12.45f;
+      int c=999999999l
+     System.out.println(b1);
+     System.out.println(b2);
+     System.out.println(b3);
+     System.out.println(b4);
+     System.out.println(c);
+     System.out.println(f);
+  }
+}
+//Output
+10
+10
+10
+10
+12.45
+999999999
+
+-----Compiler And Interpreter-------
+They both translate Source code into machine understandable code.
+Interpreter can translate line by line.
+These are bit slower.
+These languages are easy to learn and take less time to develop
+
+Compiler will compile only once.
+They are faster.
+These languages takes time to learn and to develop.
+we can execute many times once we can compile.
+
+Java is a Hybrid Programming language.It can use both compiler and interpreter.
+Compiler will read the source code then it generate class file for the source file.It has byte code and it is error free.
+JVM  contains Interpreter and JIT compiler.It will convert the byte code into machine code .
+Then it will execute the program via os.
+The way it interacts with os called System calls.
+JVM is responsible for executing java programs.
+
+------Java Features/Buzz words-----
+1)simple
+2)Secure
+  It cannot infected by  virus or malware .It has a security verifier in JVM
+3)Portable
+Java Program can run on any platform.
+4)Object-Oriented
+It is a Paradigm.some of the  principles are abstraction,Encapsulation,Inheritance,Polymorphism
+5)Robust
+They  never crash in worst conditions .This is achieved with Excepption Handling.
+6)MultiThreaded:
+Java  supports Multithreading.It can run simultaneously.
+7)Architecture
+Java can run on any Architecture.It is Architecture Neutral
+8)High Performance:
+Though it is interpreted .It has high Performance.
+9)Distributed and dynamic
+Java supports distributed computing
+
+
+

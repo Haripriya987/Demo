@@ -1,0 +1,209 @@
+----Operator And Expressions----
+Arithmetic Opeartors
++,-,*,/,%
+These operators can be applied on any type of Data except Boolean.
+% operator works on float annd double  data types without taking the decimal point in quotient but the divisor and dividend contains the Decimal points. 
+To write the expression one should familiar with precedence of operators.
+*,/,% have higher precedence than +,-
+To change the precedence of operators () are used.
+
+Data Types of Expression
+If byte,short,int results as int as they belong to integer DataType
+Float is used in expression then the result is float.
+If double is used  in the expression then the result is double.
+When the char is used the result is int type as char is a part of int
+
+//Sample Programs
+
+import java .util.*;
+import java.lang.Math;
+public class OpeartorsDemo{
+public static void main(String args[]){
+
+Scanner in=new Scanner(System.in);
+
+float base,height,Area;
+System.out.println("Enter the values of Base and Height");
+base=in.nextFloat();//34.5
+height=in.nextFloat();//23.6
+Area=base*height*0.5f;
+System.out.println("Area is:"+Area);//407.1
+}
+}
+import java .util.*;
+import java.lang.Math;
+public class OpeartorsDemo{
+public static void main(String args[]){
+
+Scanner in=new Scanner(System.in);
+
+int a,b,c;
+float s;
+double Area;
+System.out.println("Enter the values of a,b,c");
+a=in.nextInt();
+b=in.nextInt();
+c=in.nextInt();
+s=(float)((a+b+c)/2);
+Area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+System.out.println("Area"+Area);
+
+//Enter the values of a,b,c
+//4
+//5
+//6
+//Area  6.48074069840786
+/*Enter the values of Base and Height
+12.5
+32
+Area is:200.0
+*/
+
+ }
+}
+
+//To find the roots of a Quadratic Equation
+import java.util.*;
+import java.lang.Math;
+class Roots{
+ public static void main(String args[]){
+
+Scanner in=new Scanner(System.in);
+  double r1,r2;
+int a,b,c;
+System.out.println("Enter the values of a,b,c");
+a=in.nextInt();
+b=in.nextInt();
+c=in.nextInt();
+r1=(-b+Math.sqrt(b*b-4*a*c))/(2*a);
+r2=(-b-Math.sqrt(b*b-4*a*c))/(2*a);
+System.out.println("Roots are" +" "+r1+" "+r2);
+  }
+}
+/*Enter the values of a,b,c
+1 -4 4
+Roots are 2.0 2.0
+
+Enter the values of a,b,c
+2 6 4
+Roots are -1.0 -2.0
+*/
+
+----Increment/Decrement Operators:----
+Post++, post- -, ++pre, - -pre. 
+Pre and Post operators both work in same way. 
+In pre increment/decrement 
+first the value is incremented/decremented and then utilized. 
+In post increment/decrement 
+first the value is utilized and then incremented/decremented. 
+The data types remain the same on application of these operators.
+ These operators cannot be applied to Boolean type of data. 
+
+//sample programs
+import java .util.*;
+public class  IncDec{
+public static void main(String args[]){
+int x=5,y=4,z;
+y=x++;
+System.out.println(x+" " +y);
+
+}
+}
+
+//6 5
+
+import java .util.*;
+public class  IncDec{
+public static void main(String args[]){
+int x=5,y=4,z;
+z=(x++ + 3)*(5+ ++y)
+System.out.println(x+" " +y+" "+z);
+
+}
+}
+//6 5 80
+
+----Bitwise Operators----
+These perform operations on bits of data. 
+These operations are faster compared to other operators. 
+Bitwise operators available in java are:
+AND  & result is true if both are true. 
+OR      | result is true if any one of the values is true. 
+NOT   ~ result is inversed. 
+XOR   ^ result is true if any one of it is true. 
+Right shift     >> numbers are shifted to right by one unit and the empty space is filled by ‘0’. 
+Unsigned right shift   >>> this operator extends the right shift operator. 
+Left shift   << numbers are shifted to left by one unit and the empty space is filled by ‘0’. 
+These operators can be performed on only integer type of data.
+//Sample Programs
+
+import java .util.*;
+public class  Bitwise{
+public static void main(String args[]){
+int x=10,y=6,z;
+z=x&y;
+System.out.println(z);//2
+z=x|y;
+System.out.println(z);//4
+x=4;
+z=x<<1;
+System.out.println(z);//8
+x=8;
+z=x>>1;
+System.out.println(z);//4
+x=10;
+y=~x;
+z=x>>>1;
+System.out.println(z +" "+y);// 5  -11
+
+}
+}
+
+*In left shift  if 1 place is shifted then the result is 2 power 1*n;
+similarly if k places are shifted then result  is 2 power k*n
+
+*In right  shift  if 1 place is shifted then the result is n/2 power 1;
+similarly if k places are shifted then result  is   n/2 power k;
+In right shift sign bit is untouched if the no is negative the value is negative only.
+But in unsigned right shift the value becomes positive.
+
+----Bit Merging and Masking----
+One of the aplication of bitwise operators. 
+They are used to check whether the bits are marked as zero or one. 
+The process of setting one of the bit as ‘1’ is known as merging (using or operator). 
+To check if the bit is on or not by using and operator is known as masking. (using AND operator)
+4 bits is also known as nibble. 
+XOR operation is used for Swapping two numbers without inserting any third number. 
+
+//swap the numbers using  XOR operator
+class Bitwise{
+public static void main(String args[]){
+
+int a=10,b=15;
+a=a^b;
+b=a^b;
+a=a^b;
+System.out.println(a+" "+b);
+//15 10
+}
+}
+
+----Widening and Narrowing----
+It is related to conversion of data type of given data item. 
+Widening:
+ The process of storing the data of smaller size data type into a larger size data type can be done automatically by the compiler.
+The compiler directly converts the data type without showing any errors i.e from source data type to the destination data type. Since it is done internally it is said as automatically. 
+The source and destination data type should be compatible. 
+it is also known as upcasting. 
+
+byte ->short -> int -> long -> float -> double
+               char-> int -> long -> float -> double
+
+Narrowing: 
+The process of storing the data of larger size data type into a smaller size data type.
+due to difference in size it may lead to loss of data. 
+it is not compatible. 
+typecasting is required for narrowing. 
+Boolean is compatible only with Boolean.
+
+

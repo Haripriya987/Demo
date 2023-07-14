@@ -1,1 +1,79 @@
-//hello welcome to java course
+//Hello welcome to java course
+---Setup and Installation of java----
+ To run a java program first we need JDK(java Development Toolkit)
+JDK contains development tools and JRE(Java RunTime Environment)
+we have to download jdk of current version from the official website
+After that we have to successfully install it in our system.
+ Then we have to set up the path  in our system
+By completing all these steps now we can able to run java programs in our system
+
+---First Java Program----
+
+class First
+{
+  public static void main(String args[])
+   {
+	System.out.println("Hello world");
+    }
+}
+
+First we have to save the above program  as First.java in any of text editor with the extention of Java.
+Then we have to compile the above program as javac First.java in cmd.javac compiler will convert it into byte code.
+Finally we have to run by using java First command .Then it will convert into machine readable code.
+It will display the output as Hello World.
+
+----Taking input from the KeyBoard----
+By this the user can give the input at the run time of a program
+For this we have to use predefined package called util in this it provides a class called  Scanner .
+In Scanner class there are some predefined methods are there.
+some of them are
+nextInt -For Integer values
+nextFloat -For float values
+nextDouble-For double values
+next-For Characters
+nextLine-For single Line statements
+nextByte 
+nextShort
+nextLong
+nextBoolean
+
+//Sample program for taking input from keyboard
+import java.util.Scanner;  //we are importing Scanner class from util Library
+class Input
+{
+  public static void main(String args[])
+   {
+     Scanner sc=new Scanner(Syastem.in);//creating a object for Scanner class
+     int a,b,c;
+     System.out.println("Enter any Two Numbers");
+     a=sc.nextInt();
+     b=sc.nextInt();
+     c=a+b;
+     System.out.println("Sum is"+c);
+   }
+}
+After saving the above program
+we have to compile it and run the program
+During the run time we have to give input as a int
+
+//Another Program 
+import java.util.Scanner;  //we are importing Scanner class from util Library
+class Input
+{
+  public static void main(String args[])
+   {
+     Scanner sc=new Scanner(Syastem.in);//creating a object for Scanner class
+      String a;
+      System.out.println("May i Know your Name");
+       a=sc.nextInt();
+      System.out.println("My Name is"+a);
+    }
+}
+After saving the above program
+we have to compile it and run the program
+During the run time we have to give input as a string
+
+
+
+     
+ 
