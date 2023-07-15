@@ -1,0 +1,41 @@
+-----Principles Of Object-Oriented Programming----- 
+Principles of Object-Oriented programming are
+ 1.Abstraction. 
+2.Encapsulation. 
+3.Inheritance. 
+4.Polymorphism. 
+Abstraction: 
+Abstraction means hiding internal details and showing the required things.
+Encapsulation:
+ Encapsulation is the process of grouping data in a single section.
+Inheritance :
+Inheritance means designing an object or a class by re-using the properties of the existing class and object.
+Inheritance is same as specialization.
+Polymorphism:
+Polymorphism is a concept in which we can execute a single operation in different ways.
+polymorphism is same as generalization.
+
+Class VS Object 
+Object is defined in terms of its properties and behaviour.
+Operation of behaviours will affect the properties. 
+Anything in the world can be defined in the terms of properties and behaviour. 
+For a single class we can have many objects. 
+Multiple number of objects can be created by one single class   
+In java there is an area inside main memory which is known as method area which contains all the methods.
+The definitions of the will be present inside the heap, as the objects will be based on the definitions so the objects are also present in heap.
+
+//sample program for creating class and objects
+class Television{
+  private int channel;  
+  private int volume;  
+public void changechannel() 
+ public void changevolume()
+ } 
+class test { 
+ public static void main(String args[]){
+   Television t=new Television();
+   t.changechannel(10);  
+    }
+ }
+
+

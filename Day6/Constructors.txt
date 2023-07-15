@@ -1,0 +1,43 @@
+Data Hiding
+Usually data is hidden and the operations are made visible and operations or methods are performed over the data 
+
+class Rectangle{
+   public int length;   
+   public int breadth;   
+  public int area() {    
+ return length*breadth;
+   }  
+ public int perimeter (){  
+   return 2*(length+breadth);   
+}
+  class test {  
+  public static void main(String args[])  
+ {   
+  Rectangle r=new Rectangle();  
+  }
+ }
+
+In above example there is given two data members length and breadth which are the properties of the class. 
+And the area and perimeter is the method of the class where both the methods are performing the operations on the given data. 
+For hiding the data, the data members will have the stricter (private) success modifier. 
+So, when the data is made private, we can’t access that data outside the class.  
+Types of Properties
+Read and writable property. 
+getLength() method will allow us to read the property 
+setLength() method will allow us to write the property . 
+Read only property. 
+When there is no modification to the property then read only property is used.  
+Write only property
+Only set method is used for writing the property where no get method is used. 
+Constructors 
+ A method is required for Initialization of properties at the time of construction of an object, this method is known as constructor. 
+Constructor is a method of class called when an object is created. Every class will have a default constructor provided by java compiler. 
+Constructor will not have any return type.  
+There are two types of constructors  
+1. parameterized 
+2. Non-parameterized. 
+Non-parameterized constructors is a replacement for default constructors. 
+Constructors can be overloaded.
+we can create any number of constructors.
+
+
