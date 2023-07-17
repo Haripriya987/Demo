@@ -1,0 +1,87 @@
+----Inner Class-----
+A class inside a class is called Inner class.
+To reduce the complexity of a class we can use inner classes.
+There are four types of inner classes are present in it.They are:
+1)Nested Innerclass
+2)Local Inner Class 
+3)Annonymous InnerClass
+4)Static Inner class
+
+--Nested Inner class---
+This can be created within a class.So, it is called as Nested Inner Class.
+Inner class can directly acess the members of outer class.
+But outer class cannot acess directly the members of the inner class.
+It can be acessed by creating an object to it and it will access them.
+Purpose of Inner class is limited to outer class only.
+
+class Outer{
+     int x=10;
+         class Inner{//Inner class
+	int y=20;
+	void innerDisplay(){
+		System.out.println(x+" "+y);
+	}
+           }
+         void OuterDisplay(){
+	Inner i=new Inner();
+	i.innerDisplay();//acessing inner class methods
+        }
+}   		
+
+---Local Inner class---
+when we define a class inside a method then it is called as Local Inner Class.
+It is only visible and used inside a method only.
+These are useful when we inherit classes or implement  interfaces that are used inside this methods.
+
+class Outer{
+      void Display(){
+         class Inner{//Inner class defined inside a method
+	int y=20;
+	void innerDisplay(){
+		System.out.println("Hello");
+	}
+           }
+	Inner i=new Inner();
+	i.innerDisplay();//acessing inner class methods
+        }
+}   
+
+----Annonymous Inner Class-----
+These classes are created at the time of creating an object.  
+These are of special type.
+It will create an annonymous class at that time.
+This can also be used to override methods of abstract class and interfaces.
+abstract class My{
+	abstract void Display();
+}
+class Outer{
+	public void meth(){
+	         My m=new My(){//Here it is not object
+		public void Display(){
+			System.out.println("Hello");
+		}
+	};
+	m.Display();
+}
+
+---static Inner class----
+These are static members of outer class.
+These are similar to Nested Inner Class only.
+But these are directly acessed at outside class.
+Static Inner class Only access the static members of outer class only.
+		
+class Outer{
+    static int x=10;
+               int y=20;
+         class Inner{//Inner class
+	void innerDisplay(){
+		System.out.println(x);
+		System.out.println(y);//It is an error it can not access 
+	}
+           }
+         void OuterDisplay(){
+	Outer.Inner i=new Outer.Inner();
+	i.innerDisplay();//acessing inner class methods
+        }
+}   		
+	
