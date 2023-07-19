@@ -1,0 +1,34 @@
+Basically two types of errors are there 
+checked Exceptions -Compile time errors
+Unchecked Exceptions -Runtime errors
+Object is the root for all the classes in java.It can be inherited default if it does not inheriting any of  the class.
+In checked exceptions we have to necessarily check and handle the exceptions otherwise it will abort the program
+Exception is a parent  class for all exceptions .we can also use custom exception that have to be extended from a Exception class
+Java does not support multiple inheritance.the reason  is it leads an ambiguity to the compiler so, it does not support.
+explaining  with a scenario
+if we are having three classes A,B,C  if A haves a method show .B also have a method show.If C is extending both classes then we create an object for c call the method show .Which show method has to execute.So it leads to ambiguity to compiler. This is the reason java does not support multiple Inheritance.
+It is also called as Diamond problem.
+
+OOPs
+There are mainly four concepts in ObjectOrientedProgramming
+1.Abstraction
+Hiding inner details presenting only essentials details
+100% abstraction can be achieved by using interfaces.
+Default all the methods in interface are abstract.
+it can also be achieved using abstract classes also but it is from 0 to 100%
+
+2.Encapsulation 
+Wrapping of all the variables,methods and data into a class is called as Encapsulation.
+
+3.Inheritance
+It gives the idea of reusablity.by using inheritance we can inherit the methods and variables of a parent class to child class.
+There are different types of them
+single Inheritance    Hybrid inheritance  Multilevel Inheitance
+These three are supported by java.
+
+4.Polymorphism
+Ability to take more than one form.
+Two Types are there 
+compiletime polymorphism:It can be achieved using method overloading
+ runtime polymorphism:It can be achieved using method overriding
+
