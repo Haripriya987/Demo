@@ -1,0 +1,180 @@
+------MultiThreading-----
+Running more than one program that is running multiple programs on a single machine or a computer is known as multi-programming. 
+The idea of multiprogramming started from the utilisation of the CPU when it is idle as the CPU works for just few time in the whole hour. 
+There are different form of multi-programming. 
+Multi-Tasking: single user runs multiple tasks simultaneously. here the CPU runs the programs alternatively on high rate. 
+WINDOWS and MacOS(OS X) operating system supports this type of environment. 
+
+Multi-Threading:
+It is a type of multi-threading where there are different tasks going on under a single application. threads are light weighted compared to the task. 
+CPU runs the threads alternatively where the user fells the threads running all together. 
+examples: animation, application, gaming, websites, webserver  
+
+---Control Flow of a Program-----
+A single program in java contains one control Flow. 
+Entry point of the program is main method which executes at First. 
+Example program: 
+class Test {      
+static void display( )  {           
+s.o.p(“HELLO”);      
+} 
+ p.s.v main(...){
+   display( );           
+s.o.p(“WORLD”);
+  }
+ }
+
+ The second method which executes is the calling method.
+ The third method which Is executed is the called method. 
+The above program is example explaining that the main method is the only thread which controls the Flow of the program. 
+It is just like getting a reference of a page while reading a book. If there is an inFinite loop in the display method then the Flow of program does not executes further so there needs to be two Flow of controls to execute the program.
+
+---- MultiThreading Using Thread Classes -----
+Java provides thread class and runnable interface to achieve multithreading. 
+Thread class contains the actual mechanism for multithreading. In java a class can extend from only one class. 
+
+Runnable interface is used to extends class from some other class 
+To achieve multithreading there need to be a class extending another class.  
+Example program using thread class
+class MyThread extends Thread { 
+ public void run( )  {   
+int i=1;   
+while(true){   
+ s.o.p(i+”hello”);   
+ i++;   
+}  
+} 
+} 
+class Test {      
+p.s.v main( ){   
+MyThread t=new MyThread();   
+t.start( );           
+int i=1;   
+while(true);{  
+ s.o.p(i+”world”);    
+i++;   
+}  
+}
+ }
+
+Run is the starting point of a program for multithreading. 
+There should be a class having all the features for multithreading like the one in the above program. 
+ The object of thread class is created in the main method. 
+The start method call the thread class and runs the method which is a built in method of thread class
+Example program using runnable interface: 
+class My implements Runnable {  
+public void run( );  
+{
+   int i=1   
+while(true){    
+s.o.p(i+“hello”);    
+i++;   
+} 
+ } }
+ class Test{     
+ p.s.v main( )  {  
+ My m=new My( );  
+ Thread t=new Thread(m);   
+t.start( );           
+int i=1;   
+while(true){    
+s.o.p(i+”world”);    
+i++;   
+}  
+} 
+}
+Interfaces are implemented. 
+The class becomes abstract if it does not implements all the features of interface. 
+In the above program it gives the example that the object also runs when the thread runs. 
+
+-----States Of a Thread------
+The First state of the thread is new it stores the object of the thread.
+To run the object of thread the start method is called. 
+When start method is called then it is entered into the ready state where it is ready to run. 
+
+Then it enters into the running state. 
+After completing the task it will enter into the terminated state. A thread which is terminated is just like a thread which is killed. Therefore the different states of thread are NEW  !  READY  !  RUNNING  !  TERMINATED 
+While running the thread may also enter into different states like: 
+WAIT STATE:waiting for acquiring some resource or made to wait by some other thread. 
+TIME WAIT STATE:to make the thread to delay for some time using the sleep method, it is also known as sleep state 
+WAIT AND NOTIFY:where the thread is to be in the waiting state to get to its chance till it gets notiFied. 
+BLOCKED STATE
+It is just like entering into the monitor where the thread is being locked for some time, it is similar to waiting state. 
+
+----Thread Priorities -----
+Java supports thread priorities from 1-10. 
+Execution of threads depends upon scheduler. 
+If a thread is having higher priority then it should get some preference over other threads. 
+In java there are different levels of priority that are: 
+MIN_PRIORITY=1. 
+NORM_PRIORITY=5. 
+MAX_PRIORITY=10. 
+The priority of default thread is always 5.
+The higher priority is given to the thread which gets the input or the data.
+The thread with higher priority gets the more CPU time.
+Multithreading features are provided by the operating systems but in java JVM have its own scheduler.
+
+---THREAD CLASS---- 
+Object of the thread class can be created. 
+Whenever a thread is created it gets some IDE. 
+Threads can be identiFied by mentioning their names. 
+There are different constructors to give the thread classes: Thread( ) 
+	it is a default class. 
+Thread(Runnable r) 
+	the thread contains the runnable interface. 
+Thread(Runnable r, String name) 
+	the thread class have its own name with runnable interface. 
+Thread(ThreadGroup g, String name) 
+	thread group to manage various threads together.
+Thread(String name) 
+	the thread class have its own name. 	
+
+
+There are various getter and setter methods: 
+long getId( ) 
+	to get the id of particular thread. 
+String getName( ) 
+	to get the name of the thread mentioned. 
+int getPriority( ) 
+	to know the current priority of the thread. Thread.state getState( ) 
+	to get to know the state of the thread . 
+ThreadGroup getThreadGroup( ) 
+	to know the group to which the thread belongs. 
+void setName(String name) 
+	to set the Name of the thread class. 
+void setPriority(int p) 
+	to set the priority of the thread class. 
+void setDaemon(Boolean d) 
+	to set a background thread with least priority with no user interaction. 
+
+
+There are different methods for the enquirying the thread classes: 
+boolean isAlive( ) 
+	to check if the thread is alive or terminated. 
+boolean isDaemon( ) 
+	to check if the thread is acting as a daemon or not. boolean isInterrupted( )  
+	to check whether the thread is interrupted by some other methods or not. 
+
+
+There are different instance methods for the thread classes: 
+void interrupt( ) 
+	it is used to interrupt the thread mostly in  the state of waiting or sleeping. 
+void join( ) 
+	instead of terminating the thread is been kept waiting to join with other thread until it is completed using the join method. 
+void join(long millis) 
+	it is used to join the main function with other for a period of time. 
+void run( ) 
+	It has the actual functionality of thread and it can be overided 
+void start( ) 
+
+
+There are different static methods for the thread classes: 
+These can be called by just using the class name. 
+Int activeCount( ) 
+	it gives the number of threads active in a particular group. 
+Thread currentThread( ) 
+	to get the reference of the current or the running thread.  
+void yield( ) 
+	To give the indication for the thread with higher priority to wait for sometime to let the threads with low mpriority to Finish their job. 
+void dumpStack( ) 
+	to know the contents in the stack or to know the depth of the stack
