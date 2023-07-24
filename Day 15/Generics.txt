@@ -1,0 +1,13 @@
+Important points to remember in generics:
+1)Only extends is allowed in Generic class Definition.{super is not allowed}
+eg:
+class A
+class B extends A
+class C extends B
+public class Demo<T extends A>
+Now,it extends to  all the classes of A,B,C.
+2)For interfaces also we use same keyword extends only.
+3)extends and super are allowed with ? in method 
+we can also create generic methods in that we can use extends as well as super.If we use super means we can use super classes of that class only.Otherwise it will throw an error.
+eg: static<E> void show(T[] list)
+4)Base type of an object  should be same or ?.

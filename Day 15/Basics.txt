@@ -1,0 +1,75 @@
+*Processor performance can be affected by clock speed, cache size and the number of cores the processor has.
+There are two main types of processor
+reduced instruction set computer(RISC)
+complex instruction set computer(CISC)
+
+Most of the computers are based on von Neuman Architecture.
+It includes using the fetch-decode-execute cycle to process program instructions.In von Neuman Architecture
+Data and instructions are both stored as binary digits.
+Data and instructions are both stored in primary storage.
+
+Computer performance depends on cache size,clock speed and the number of cores.
+The purpose of the CPU
+The central Processing unit is the most important hardware component in a computer.
+It has two functions
+1)To process data and instructions.
+2)To control the rest of the computer system.
+common CPU Components:
+Control unit
+	It issues control signals that control hardware components within the CPU.
+Arithmetic logic unit(ALU)
+	It performs arithmetic and logic operations (Decisions).
+registers
+	Registers are small amounts of high-speed memory contained within the CPU.
+Most commonly used registers are :
+program counter(PC)
+memory adress register(MAR)
+memory data register(MDR)
+current instruction register(CIR)
+accumulator(ACC)
+cache
+	 It is used to temporarily hold data and instructions that the processor is likely to reuse	
+Buses
+	A bus is a high speed internal connection.Buses are used to send control signals and data between processor and other components.Three type sof buses are used
+Address Bus
+Data Bus
+Control Bus	
+clock
+	The clock sends out a regular electrical pulse which synchronises (keeps in time) and coordinates all the components.Clock speed is measured in hertz(hz).
+All the components work together to allow processing and system control.
+The frequency of pulses is known as clock speeds
+
+
+Harvard Architecture:
+Machine instructions were stored on punch cards and data could be stored on another media such as magnetic tape. This kept the instructions and data entirely separate from one another, known as the Harvard architecture
+
+
+Embedded Systems
+An embedded system is a small computer that forms part of a larger system, device or machine. Its purpose is to control the device and to allow a user to interact with it. They tend to have one or a limited number of tasks that they can perform.
+
+Input Devices
+->Key board
+->Mouse
+->Microphone
+->Scanner
+Output devices
+->Monitor
+->printer
+->Speaker
+->Projector
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Computer means it is a combination of both hardware and software.
+Basically computers are used to process the data and store.
+Computers cannot think their own.
+So it performs the operations based on the instructions given to them.
+It understand only Binary digits 0 or 1.It also known as Machine code.
+whatever the instruction we given to it convert into machine code and process it.
+It is difficult to memorize numbers.
+so we are using general terms for it.That is called as Assembly language.
+With the help of Assembler it convert into machine language.
+ To made it even more simpler to write the instructions in general english language we use compiler and Interpreter.
+Compiler and Interpreter convert the high level programming language to machine Language.But there is a difference in it.
+                   Compiler convert entire file into machine code when the program is free from errors only.It will store it.Otherwise it is not converted.eg are Java,c,c++  ...etc
+	Interpreter will convert  into machine code upto it will have no error and execute it.If it have any error then it will stops.It is the major difference between them. eg are python,javascript ...etc 
+
