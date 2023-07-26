@@ -1,0 +1,27 @@
+OSI:
+Open System Interconnection. It is the standard for network connection. 
+This model defines a network system in the form of layers. 
+The issues involved in network communication are addressed at different layers. 
+The network connection is formed between the client and server. 
+The top most is the APPLICATION LAYER the connection of the layer between client and server is the peer to peer communication
+ PRESENTATION LAYER the encryption and decryption of the data is done. 
+SESSION LAYER this layer decides the time period of communication or the complete start and the end of the communication. the beginning of the file download to the end of the file download is known as session, even if the connection is not there the session may continue. 
+TRANSPORT LAYER at this layer the communication may be connection oriented or the connection less, here the network transmission takes place. 
+NETWORK LAYER it deals with routing of the data, it identi;ies the machines at different addresses using the IP address which are the logical addresses. 
+DATA LINK LAYER this layer actually deals with the transmission of data from client to server machine, it takes care of transferring of every single bit. 
+PHYSICAL LAYER it is the actual medium via which the transmission or the communication is done it may be wired or wirelessat network layer the device is identified by its IP address. 
+At data link layer the devices are identified by their MAC(Medium Access Controller) address. 
+IP address may change depending upon the network connection but the MAC address is the like an in-built address. 
+
+TCP/IP MODEL 
+The running network model in our systems is TCP/IP which is similar to OSI. 
+It is a five-layer model. 
+Basically TCP/IP refers to the transport and network layer. 
+The layers from the bottom are: 
+Network Access Layer: Ethernet is used in this layer the data link layer and the physical layer from the OSI model are together are shown as network access layer. 
+Network Layer : This takes care of routing of the packets or data from source to destination/ server to client, IP(Internet Protocol) address is used in this layer which are in two versions those are 4 and 6 bytes. 
+Transport Layer :This layer have two types of protocol one is TCP(Transmission Control Protocol) which is connection oriented  (example is the telephone service). The other is UDP(User Datagram Packets) which is connection less (example is the telegram services). 
+Application Layer :The first three layers of the OSI models are combined to form this layer. The set of standard protocols are given for common type of communication: 
+HTTP(Hyper Text Transfer Protocol) it is for accessing web. FTP(File Transfer Protocol) it is for file transferring.
+ SMTP(Simple Mail Transfer Protocol) it is for transferring E-mail. 
+POP(Post OfHice Protocol) it is for receiving the E-mail.

@@ -1,0 +1,62 @@
+The Collection Framework consists of several key components:
+Interfaces: These are abstract data types that define various types of collections. Some of the core interfaces include:
+Collection: The root interface that defines the basic operations for all collections, such as add, remove, and iterate.
+List: An ordered collection that allows duplicate elements. Elements can be accessed by their index.
+Set: A collection that does not allow duplicate elements.
+Map: An object that maps keys to values, where each key can be associated with at most one value.
+Queue: A collection designed to hold elements before processing, typically following the First-In-First-Out (FIFO) principle.
+
+
+ArrayList:
+Internal data structure: Dynamic array.
+Order: Maintains the insertion order of elements.
+Duplicate elements: Allows duplicate elements.
+Use case: Suitable for scenarios where random access to elements is frequent and insertion/deletion operations are less common.
+Default sie is 10 .If we insert more elements then it is adjustable it increases its 50% of its size.In such a way it resies the array based on requirement.
+
+LinkedList:
+Internal data structure: Doubly-linked list.
+Order: Maintains the insertion order of elements.
+Duplicate elements: Allows duplicate elements.
+Use case: Ideal for scenarios where frequent insertion/deletion is required, and random access to elements is not as important.
+
+ArrayDeque:
+Internal data structure: Resizable array or circular array.
+Order: Can be used as both a queue (FIFO) and a stack (LIFO).
+Duplicate elements: Allows duplicate elements.
+Use case: Well-suited for implementing queues and stacks, and situations where fast insertion and deletion from both ends are necessary.
+
+PriorityQueue:
+Internal data structure: Heap (usually a binary min-heap).
+Order: Elements are partially ordered based on their priority.
+Duplicate elements: Does not allow duplicate elements based on the natural order (determined by Comparable) or a custom Comparator.
+Performance characteristics: Efficiently maintains the highest (or lowest) priority element at the front and provides logarithmic time (O(log n)) for basic operations like insertion and removal of the highest-priority element.
+Use case: Ideal for scenarios where elements have priorities and need to be processed in a specific order.
+
+HashSet:
+Internal data structure: Hash table.
+Order: Does not guarantee any specific order; elements might appear in a seemingly random order.
+Duplicate elements: Does not allow duplicate elements based on the hashCode() and equals() methods.
+Performance characteristics: Offers constant-time (O(1)) performance for basic operations like add, remove, and contains on average.
+Use case: Suitable when you need a collection without duplicates, and the order of elements is not important.
+
+TreeSet:
+Internal data structure: Balanced binary search tree (Red-Black tree).
+Order: Maintains elements in sorted order (natural order or custom order).
+Duplicate elements: Does not allow duplicate elements based on the natural order (determined by Comparable) or a custom Comparator.
+Performance : Provides O(log n) time complexity for basic operations due to the balanced tree structure.
+Use case: Useful when elements need to be stored in a sorted order, and you need to perform range queries or get elements closest to a given value.
+
+LinkedHashSet:
+Internal data structure: Combination of a hash table and a linked list.
+Order: Maintains the insertion order of elements, providing an ordered set with uniqueness.
+Duplicate elements: Does not allow duplicate elements based on the hashCode() and equals() methods.
+Performance : Offers O(1) for basic operations like add, remove, and contains on saverage.
+Use case: Suitable when you need a set with both uniqueness and predictable iteration order.
+
+HashMap:
+Internal data structure: Hash table that stores key-value pairs.
+Order: Does not guarantee any specific order of the keys; elements might appear in a seemingly random order.
+Duplicate keys: Does not allow duplicate keys; each key can be associated with at most one value.
+Performance: Provides constant-time (O(1)) performance for basic operations like put, get, and remove on average.
+Use case: Ideal for scenarios where you need to store and retrieve data based on unique keys.
