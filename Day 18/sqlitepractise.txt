@@ -1,0 +1,21 @@
+sqlite> .open univ
+sqlite> .databases
+main: C:\sqlite\univ r/w
+sqlite> .open univ
+sqlite> .tables
+sqlite> create table dept(deptno integer primarykey,dname text);
+sqlite> .tables
+dept
+sqlite> create table students(rollno integer primarykey,name text,city text,deptno integer,foreign key (deptno) references dept (deptno));
+sqlite> .tables
+dept      students
+sqlite> insert into dept values(10,'CS');
+sqlite> insert into dept values(20,'STATS');
+sqlite> insert into dept values(30,'MATHS');
+sqlite> insert into dept values(40,'PHYSICS');
+sqlite> insert into students values(1,'A','Chennai',10);
+sqlite> insert into students values(2,'B','Hyderabad',20);
+sqlite> insert into students values(3,'C','Bangalore',30);
+sqlite> insert into students values(4,'A','Delhi',30);
+sqlite> insert into students values(5,'E','Bombay',20);
+sqlite> select * from Students;

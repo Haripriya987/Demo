@@ -1,0 +1,96 @@
+we can have various clauses in sqlite.These all are using with sql
+>
+>=<
+<=
+=
+<>
+AND
+OR
+NOT
+between _ and _
+LIKE
+IN
+NOT IN
+
+sqlite> select * from Students2;
+1|Ajay|Delhi|10
+2|vijay|Kolkata|10
+3|Ajay|Mumbai|20
+4|Ramesh|Delhi|30
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+10|Ramani|Hyderabad|10
+sqlite> select * from dept;
+10|CS
+20|STATS
+30|MATHS
+40|PHYSICS
+sqlite> select distinct deptno from Students2;
+10
+20
+30
+40
+sqlite> select * from Students2 where city='Delhi';
+1|Ajay|Delhi|10
+4|Ramesh|Delhi|30
+sqlite> select * from Students2 where city<>'Delhi';//That symbol represents not equal
+2|vijay|Kolkata|10
+3|Ajay|Mumbai|20
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+10|Ramani|Hyderabad|10
+sqlite> select * from Students2 where deptno>30;
+5|Sunitha|Kolkata|40
+7|Rani|Jaipur|40
+sqlite> select * from Students2 where deptno>=30;
+4|Ramesh|Delhi|30
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+sqlite> select * from Students2 where deptno>=30 AND
+city='Delhi';
+sqlite> select * from Students2 where deptno>=30 and  not (city='Delhi');
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+sqlite> select * from Students2 where name like 'A%' ;
+1|Ajay|Delhi|10
+3|Ajay|Mumbai|20
+6|Anitha|Lucknow|30
+sqlite> select * from Students2 where name like '%m%' ;
+4|Ramesh|Delhi|30
+8|Sharma|Vizag|30
+10|Ramani|Hyderabad|10
+4|Ramesh|Delhi|30
+sqlite> select * from Students2 where name like '%a' ;
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+8|Sharma|Vizag|30
+1|Ajay|Delhi|10
+2|vijay|Kolkata|10
+3|Ajay|Mumbai|20
+4|Ramesh|Delhi|30
+6|Anitha|Lucknow|30
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+10|Ramani|Hyderabad|10
+sqlite> select * from Students2 where city in ('Delhi','Mumbai') ;
+1|Ajay|Delhi|10
+3|Ajay|Mumbai|20
+4|Ramesh|Delhi|30
+sqlite> select * from Students2 where city not in ('Delhi','Mumbai') ;
+2|vijay|Kolkata|10
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+10|Ramani|Hyderabad|10

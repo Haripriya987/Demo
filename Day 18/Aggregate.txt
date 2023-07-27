@@ -1,0 +1,57 @@
+Various Aggregate functions are:
+Count
+Count(*)
+min
+max
+sum
+avg
+groupby
+
+sqlite> select count(*) from Students2;
+10
+sqlite> select count(deptno) from Students2;
+10
+sqlite> select count(distinct name) from Students2;
+9
+sqlite> select Max(rollno) from students2;
+10
+sqlite> select Min(rollno) from students2;
+1
+sqlite> select sum(rollno) from students2;
+55
+sqlite> select avg(rollno) from students2;
+5.5
+sqlite> select Min(rollno),name from students2;
+1|Ajay
+sqlite> select Min(rollno),* from students2;
+1|1|Ajay|Delhi|10
+sqlite> select Max(rollno),* from students2;
+10|10|Ramani|Hyderabad|10
+sqlite> select Min(rollno),name from students2 group by city;
+1|Ajay
+10|Ramani
+7|Rani
+2|vijay
+6|Anitha
+3|Ajay
+8|Sharma
+9|Ravi
+sqlite> select name,city from students2 group by city;
+Ajay|Delhi
+Ramani|Hyderabad
+Rani|Jaipur
+vijay|Kolkata
+Anitha|Lucknow
+Ajay|Mumbai
+Sharma|Vizag
+Ravi|chennai
+
+sqlite> select count(rollno),city from students2 group by city;
+2|Delhi
+1|Hyderabad
+1|Jaipur
+2|Kolkata
+1|Lucknow
+1|Mumbai
+1|Vizag
+1|chennai

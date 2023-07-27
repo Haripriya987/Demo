@@ -1,0 +1,62 @@
+SubQuery means a query within a query.
+sqlite> select * from students2 where city in (select city from Students2 where name='Anitha');
+1|Ajay|Delhi|10
+4|Ramesh|Delhi|30
+6|Anitha|Lucknow|30
+11|Anitha|Delhi|20
+12|Rani|Delhi|10
+//Here first the subquery is processed then that result is attached to main query.In this way it evaluates it.
+sqlite> select * from students2 where deptno = (select deptno from students2 where name='Ramani');
+1|Ajay|Delhi|10
+2|vijay|Kolkata|10
+10|Ramani|Hyderabad|10
+12sqlite> select * from students2 where deptno > (select deptno from students2 where name='Ramani');
+3|Ajay|Mumbai|20
+4|Ramesh|Delhi|30
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+11|Anitha|Delhi|20
+sqlite> select * from students2 where rollno > (select avg(rollno) from students2);
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+10|Ramani|Hyderabad|10
+11|Anitha|Delhi|20
+12|Rani|Delhi|10
+
+------------------------DML Queries----------------------------
+insert
+delete
+update
+
+sqlite> insert into dept values(50,'CHEMISTRY');
+sqlite> select * from dept;
+10|CS
+20|STATS
+30|MATHS
+40|PHYSICS
+50|CHEMISTRY
+sqlite> delete from dept where dname='CHEMISTRY';
+sqlite> select * from dept;
+10|CS
+20|STATS
+30|MATHS
+40|PHYSICS
+sqlite> SELECT * FROM STUDENTS;
+1|A|Chennai|10
+2|B|Hyderabad|20
+3|C|Bangalore|30
+4|A|Delhi|30
+5|E|Bombay|20
+5|D|Kochi|10
+sqlite> update students set rollno=6 where city='Kochi';
+sqlite> SELECT * FROM STUDENTS;
+1|A|Chennai|10
+2|B|Hyderabad|20
+3|C|Bangalore|30
+4|A|Delhi|30
+5|E|Bombay|20
+6|D|Kochi|10

@@ -1,0 +1,30 @@
+Set Operations
+union
+intersect
+difference
+
+sqlite> select * from Students2 where city='Delhi' union select * from Students2 where city='Kolkata';
+1|Ajay|Delhi|10
+2|vijay|Kolkata|10
+4|Ramesh|Delhi|30
+5|Sunitha|Kolkata|40
+sqlite> select name from Students2 where city='Delhi' union select name from Students2 where city='Kolkata';
+Ajay
+Ramesh
+Sunitha
+vijay
+sqlite> select * from Students2  intersect select * from Students2;
+1|Ajay|Delhi|10
+2|vijay|Kolkata|10
+3|Ajay|Mumbai|20
+4|Ramesh|Delhi|30
+5|Sunitha|Kolkata|40
+6|Anitha|Lucknow|30
+7|Rani|Jaipur|40
+8|Sharma|Vizag|30
+9|Ravi|chennai|20
+10|Ramani|Hyderabad|10
+
+sqlite> select * from Students2 where city='Delhi' except select * from Students2 where city='Kolkata';
+1|Ajay|Delhi|10
+4|Ramesh|Delhi|30
