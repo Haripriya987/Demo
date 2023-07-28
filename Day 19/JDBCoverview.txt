@@ -1,0 +1,42 @@
+JDBC stands for Java DataBase Connectivity
+we can connect java program with database Program with the help of JDBC.For Storing and 
+retrieving of Data.
+ 
+For this sqlite we use Type-II Driver.
+Below are the steps about how to do all these things.
+
+First we have to download the latest version of JDBC  driver for sqlite.It is a jar file.
+Set the class path for that that jar file.
+set classpath=c:\folder\sqlite-jdbc-3.7.jar;
+
+Steps:
+1.Use Driver
+2.Establish connection
+3.Create Statement
+4.Execute Query
+5.Get Result Set
+
+import java.sql.*;//importing all the classes
+class database{
+public static void main(String args[]){
+try{
+//1)Using Driver it is common for all
+Class.forName("org.sqlite.JDBC");
+//2)Now using reference con we can establish a connection by using driver 
+Connection con=DriverManager.getConnection("jdbc:sqlite:C://sqlite//univ");//connection string  with database adress
+//3)we can create statement
+Statement stm=con.createStatement();
+//4)Execute Query
+ResultSet rs=stm.executeQuery("select * from dept");
+int dno;
+String dname;
+while(rs.next()){
+dno=rs.getInt("deptno");
+dname=rs.getString("dname");
+//5)Get Result set
+System.out.println(dno+ " "+ dname);
+}
+}
+catch(Exception e){}
+}
+}
