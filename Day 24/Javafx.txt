@@ -1,0 +1,32 @@
+Javafx is a framework for Developing GUI based applications uaing java.
+It is a open Source Framework.
+To run this javafx applications we have to download and install javafx in our system.
+After that we have to use the jarfiles  for each appliaction independently.
+we use reference library of these jar files in our application.
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\path to lib\\javafx.base.jar",
+        "c:\\path to lib\\javafx.controls.jar",
+        "c:\\path to lib\\javafx.fxml.jar",
+        "c:\\path to lib\\javafx.graphics.jar",
+        "c:\\path to lib\\javafx.media.jar",
+        "c:\\path to lib\\javafx.swing.jar",
+        "c:\\path to lib\\javafx.web.jar",
+        "c:\\path to lib\\javafx-swt.jar"
+    ]
+}
+It is important step.Otherwise we are not able to run our application.
+In jdk 8 this is inbuilt.If we have JDK 8 in our system then no need to install this javafx.
+After that to compile and run this we have to use this in our IDE "--add-modules-  javafx.controls,javafx.fxml" .
+It is advanced when compared with awt,swing.
+we can develop dynamic GUI applications using this javafx.
+Some of the key features of Javafx are:
+Java API
+FXML sceneBuilder
+WebView
+Canvas API
+SwingInteroperability
+Built in UI Controls as CSS
+High Performanced Media Engine
+

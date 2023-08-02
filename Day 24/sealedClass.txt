@@ -1,0 +1,23 @@
+It is a preview feature in java 15 version.
+The concept of Sealed class and Interfaces restricts that which class and interface which extend or implement them.
+It allows to have more control over their sub classes and interfaces.
+
+//Sample code
+
+sealed class A   permits B,C{
+}
+ non-sealed  class B extends A{
+}
+final class  c extends A{
+}
+class D extends  B{
+}
+
+If sealed class permits the classes then it must extend that sealed class.
+The classes which are inheriting from the sealed class must have sealed ,non-sealed or final.
+Any of them it should have.Otherwise it will throw an error.
+sealed class can also extend other classes and also implement interfaces also.
+
+eg:sealed class extends Demo implements interfaceA permits B,C
+
+The main idea behind this sealed classes is if we want to restrict  the subclasses for a particular class then make it class  as sealed.

@@ -1,0 +1,67 @@
+Records are immutable data classes that require only the type and name of fields.
+It is aimed to reducce the code.
+It is introduced in 14 java edition.
+Some important points to remember about record class in java
+-> The variables in this record are private and final data members.
+->we can create static methods,normal methods and static variables  but not instance variables in records.
+->If we want to acess them we ccan assign values with the help of constructor and get values with the help of methods.
+
+//Normal Program 
+class DataDemo{
+private int id;
+private String name;   
+         public  DataDemo(int id,String name){
+	 setId(id);
+	 setName(name);
+	}
+         public void setId(int id){
+	this.id=id;
+	}
+     public void setName(String name){
+	this.name=name;
+	}
+       public int getId(){
+	return id;
+	}
+     public String getName(){
+	return name;
+	}
+	public String empDetails(){
+	return getId()+getName();
+	}
+
+}
+public class DataMain{
+	public static void main(String args[]){
+
+	DataDemo d=new DataDemo(1,AaAa);
+	System.out.println(d.getDetails());
+	}
+}
+
+
+
+//Using record class
+
+public record  DataDemo(int id,String name){
+	public DataDemo(int id,String name){	
+		if(id==0)
+		throw new IllegalArgumentException("id cannot be Zero");
+		else{
+		this.id=id;
+		this.name=name;
+		}
+	}
+}
+
+public class DataMain{
+	public static void main(String args[]){
+
+	DataDemo d=new DataDemo(1,AaAa);
+	System.out.println(d.name());
+	}
+}
+
+Now it is not necessary to use get methods .It automatically reduces the code.
+It can be used in the scenario we cannot modify the datamembers Because they are Final.Otherwise it will show errors.
+		

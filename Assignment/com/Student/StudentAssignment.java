@@ -1,26 +1,39 @@
 package com.Student;
 import java.util.*;
  class StudentDetails{
-       int rollnum;
+       int rollNum;
        String studName;
        int marks1;
        int marks2;
        int marks3;
-       int totalmarks;
+       int totalMarks;
        public void setStudDetails(int r,String n,int m1,int m2,int m3){
-              rollnum=r;
+              rollNum=r;
               studName=n;
               marks1=m1;
               marks2=m2;
               marks3=m3;
               totalMarks();
        }
-       public void totalMarks(){
-              totalmarks=this.marks1+this.marks2+this.marks3;
+       
+    public int getRollNum() {
+        return rollNum;
+    }
+
+    public String getStudName() {
+        return studName;
+    }
+
+       private void totalMarks(){
+              totalMarks=this.marks1+this.marks2+this.marks3;
        }
+        public int getTotalMarks() {
+        return totalMarks;
+    }
+   
        public void displayStudDetails(){
               System.out.println("Student Details are :");
-              System.out.println("No:"+rollnum+"\n"+"Name:"+studName+"\n"+"M1:"+marks1+"\n"+"M2:"+marks2+"\n"+"M3:"+marks3+"\n"+"Total:"+totalmarks);
+              System.out.println("No:"+rollNum+"\n"+"Name:"+studName+"\n"+"M1:"+marks1+"\n"+"M2:"+marks2+"\n"+"M3:"+marks3+"\n"+"Total:"+totalMarks);
 
        }
 
@@ -38,6 +51,6 @@ import java.util.*;
               StudentDetails sd=new StudentDetails();
               sd.setStudDetails(r, name, m1, m2, m3);
               sd.displayStudDetails();
-            
+             System.out.println("TO Display only Marks:"+sd.getTotalMarks());
         } 
  }
