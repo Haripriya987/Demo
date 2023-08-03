@@ -1,13 +1,17 @@
 
+
 package com.Account;
 
 import java.util.*;
 
-class AccountDemo {
+class AccountDemo2{
    private int accountNo;
    private String accountType;
    private int accountBalance;
-   public void setAccountDetails(int acc,String accType,int balance){
+   public AccountDemo2(){
+    System.out.println("It is a default constructor");
+   }
+   public AccountDemo2(int acc,String accType,int balance){
         setAccountNo(acc);
         setAccountType(accType);
         setAccountBalance(balance);
@@ -53,7 +57,7 @@ class AccountDemo {
     }
 
 }
-public class AccountMain {
+public class AccountConst {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the details accNo accType accBalance");
@@ -63,8 +67,7 @@ public class AccountMain {
 
         in.close();
 
-        AccountDemo ad=new AccountDemo();
-        ad.setAccountDetails(accNo, accType, accountBalance);
+        AccountDemo2 ad=new AccountDemo2(accNo, accType, accountBalance);
       System.out.println(ad.dispAccountDetails());
         ad.withDraw(200);
       System.out.println(ad.getAccountType());
