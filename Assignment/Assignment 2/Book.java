@@ -37,13 +37,13 @@ class BookDemo{
             this.price = price;
         }
         else
-            System.out.println("Don't enter Negative Values ");
+            System.out.println("Give correct Values" );
+
     }
 
     public int getBookId() {
         return bookId;
     }
-
     public void setBookId(int bookId) {
         this.bookId = bookId;
     }
