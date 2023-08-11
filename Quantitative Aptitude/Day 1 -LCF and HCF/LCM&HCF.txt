@@ -1,0 +1,123 @@
+1.The product  of two positive numbers is 216 and sum of the numbers is 30.Which of the following can be one number of the two number.
+All factors of 216 is
+ 1 ,   216
+ 2  , 108
+ 3   , 72
+ 4   , 54
+ 6   , 36
+ 8  ,  27
+ 9  ,  24
+ 12  ,  18
+
+Answer is 12+18=30
+
+2.The product  of two positive numbers is 240 and difference of the numbers is 8.Which of the following can be one number of the two number. 
+ All Factors of 240
+ 1  , 240
+ 2  ,  120
+ 3   ,  80
+ 4   ,  60
+ 5   ,   48
+ 6    ,  40
+ 8   ,   30
+10  ,  24
+ 12 ,  20
+
+Answer is  12+20=32
+
+3.The product of two positive integers is 185.If one integer is a prime number greater than 11 .Which of the following can be other number
+
+All factors of 185
+ 1  ,    185
+ 5  ,      37
+
+Answer is 5 
+
+4.Which of the following is a prime Number
+a)147
+b)91
+c) 101
+d)None of these
+
+Answer is 101
+
+5.Which of the following is a prime Number
+a)127
+b)141
+c)171
+d)All of these
+
+Answer:d
+
+6)find the HCF of 2,4,8,12
+
+Answer is 2
+
+7)The HCF of the numbers 27,81,,72   is..
+
+ Answer is 9
+
+8)Which of the following number is HCF of 56 and 68
+
+Answer is 4
+
+9)Which of the following is HCF of 136 and 166
+
+Answer is 2
+
+10)If the sides of square fields are 1410,1456,1688,1712.Then What is the maximum length of a tape thst would be able to measure all the sides exactly
+
+shortest diff is 24 
+Factors of 24
+1  ,  24
+ 2,   12
+ 3    8
+ 4     6
+ we have to check the number it divides all these 4 numbers
+
+Answer is 2
+
+11)find the side of the largest square slab which can be proved on the floor of  a field 544 m long  and 374 m broad
+
+Difference  between them is 170
+factors of 170
+1   , 170
+2   ,   85
+5   ,  34
+10   ,17
+ among these 34 will divide both these numbers
+
+so HCF is 34
+
+12)Find the largest number which when divides 721 and 282 the reaminder left are 1 and 6
+
+Answer is 12
+
+13)Find the largest no when divides 576,876, and 1206 the reaminder left are same
+
+Answer is 50
+
+14)find the greaatest number that wil divide 131,157 and 183 so as to leave the same reaminder in each case.
+
+The difference is 26. 
+Factors of 26 are 
+1 , 26
+2 , 13
+
+Answer is 26
+
+ 15)LCM of  2,4,8,12
+
+LCM is 2^3*3 =24
+
+16)LCM of 17,21,245
+
+LCM is 17*3*5*7^2
+
+17)Find the LCM of 45,90,135
+
+LCM is 5*3^3*2^2
+
+18)HCF and LCM of two numbers are 21 and 4641 respectively.One of the number lies between 200 and 300.Then the Numbers are
+
+Answer is 273  and 357
