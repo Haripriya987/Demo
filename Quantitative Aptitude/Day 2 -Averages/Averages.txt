@@ -1,0 +1,49 @@
+1)Average of all odd numbers between 20 and 30 is :
+Answer is :25
+
+2)Average of first 20 multiples of 4 is :
+4*(1+2+------+20)
+
+4*21*10/20
+42
+
+Answer is :42
+
+3)The average of the following numbers :1001,1002,1003,1006,1009
+
+Answer is :1004.2
+
+4)The average  of the following numbers : 1911,1922,1915,1916,1920
+
+Answer is :1916.8
+
+5)Sachin has an average of 90 after ten innings .If he scored 50 runs in the 11 th inning then What is the average of sachin after 11 innnings
+
+->90*10+50
+->950/11
+86.36
+Answer is : 86.36
+
+6)Manish average score in first five test was 10.If after 6th test he scored 12 marks then what was his average after 6 tests.
+
+10*5+12
+
+62/6
+
+Answer is : 10.33
+
+7)The average of first five prime numbers is 6.If first four of them are one digit prime numbers then value of 5th prime number is:
+
+The Numbers are : 2,3,5,7,13
+so answer is :13
+
+8)When a student weighting 46 kgs left  a class,the average weight of the remaining 59 students increased by 300g.What is the average weight of the remaining 59 Students.
+
+A*59=(A+0.3)*59+46
+=>0.3*59+46
+=>17.7+46
+=>63.7  
+Answer is ~64 kg
+
+ 
+
