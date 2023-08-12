@@ -17,6 +17,7 @@ Answer is :1004.2
 
 Answer is :1916.8
 
+
 5)Sachin has an average of 90 after ten innings .If he scored 50 runs in the 11 th inning then What is the average of sachin after 11 innnings
 
 ->90*10+50
@@ -45,5 +46,10 @@ A*59=(A+0.3)*59+46
 =>63.7  
 Answer is ~64 kg
 
- 
+9) The average weight of 8 men on a rope bridge is increased by 2.5 kg,when one of the men,who weighs 69 kg is replaces by a new man.Find the weight of the new man
+79  89   84  69
 
+10)The average honey collected by 19 bees of a beehive is 50 grams per day.If queen bee's  collection is added ,the average collection becomes 47.5 grams.What is the queen bess's collection?
+4  0  6  none of these
+
+11)The average score of RahulDravid after 20 innings is 20 and in the 21st innings RahulDravid scores 83 runs .In the 22 nd
