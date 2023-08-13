@@ -45,3 +45,16 @@ A*59=(A+0.3)*59+46
 =>17.7+46
 =>63.7  
 Answer is ~64 kg
+
+9) The average weight of 8 men on a rope bridge is increased by 2.5 kg,when one of the men,who weighs 69 kg is replaces by a new man.Find the weight of the new man
+2.5*8=20
+N-O=20
+N-69=20
+N=89
+
+10)The average honey collected by 19 bees of a beehive is 50 grams per day.If queen bee's  collection is added ,the average collection becomes 47.5 grams.What is the queen bees's collection?
+
+->20*47.5-19*50
+->950-950
+->0
+
