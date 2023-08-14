@@ -1,17 +1,17 @@
-1.The ratio in which a man must mix rice at 10.20 per kg and 14.40 per kg so as to make a mixture worth 12.60 per kg is,
+1)The ratio in which a man must mix rice at 10.20 per kg and 14.40 per kg so as to make a mixture worth 12.60 per kg is,
 4:3       2:5        3:4        None 
 12.6-10.2=2.4
 14.4-12.6=1.8
 1.8/2.4=>3:4
 
-2.If 10 kg of sugar costing 15Rs/kg  and 20 kg of salt costing Rs.10/kg are mixed.Find the average cost of the mixture Rs. per kilogram
+2)If 10 kg of sugar costing 15Rs/kg  and 20 kg of salt costing Rs.10/kg are mixed.Find the average cost of the mixture Rs. per kilogram
 11.33        11.67        12.33         12.67
 
 (10*15+20*10)/30
 35/3
 11.67
 
-3.In what ratio should two qualities of tea having the rates of Rs.40  per kg and Rs. 30 per kg  be mixed in order to get a mixture  that would have a rate of Rs.35 per Kg
+3)In what ratio should two qualities of tea having the rates of Rs.40  per kg and Rs. 30 per kg  be mixed in order to get a mixture  that would have a rate of Rs.35 per Kg
 1:1    1:2      1:3     3:1
 
 40-35=5
@@ -19,7 +19,7 @@
 
 5:5=1:1
 
-4.A man purchased a table and chair for Rs.2000.He said the table  at a profit of 20% and the chair at a profit of 40% .In this way his total profit was 25%.Find the cost price (in Rs.) of the table.
+4) A man purchased a table and chair for Rs.2000.He said the table  at a profit of 20% and the chair at a profit of 40% .In this way his total profit was 25%.Find the cost price (in Rs.) of the table.
 1500    900     800    1000
 
 25-20=5
@@ -29,7 +29,7 @@
 3/4*2000=1500
 1/4*2000=500
 
-5.Two types of milk having the rates of Rs.8/kg and Rs.10/kg respectively are mixed in order to produce a mixture  having the rate of Rs.9.20/kg.What should be the amount of the second type of milk if the amount of the first  type of milk in the mixture is 20Kg
+5)Two types of milk having the rates of Rs.8/kg and Rs.10/kg respectively are mixed in order to produce a mixture  having the rate of Rs.9.20/kg.What should be the amount of the second type of milk if the amount of the first  type of milk in the mixture is 20Kg
 20 kg 25 kg  30 kg  40 kg
 
 9.2-8=1.2
@@ -38,3 +38,67 @@
 1.2/0.8=3/2
 One is 20 kg and other is 30kg
 
+6)Ashok purchased two qualities of grains at the rate of Rs.100 per quintal and Rs.160 per Quintal.In 50 Quintals of second quality.How much pulse of the first quality should be mixed so that by selling resulting mixture at Rs.195 per quintal,he gains a profit of 30%?
+10        14        20        none
+
+
+
+7)There are two mixtures of milk and water,the quantity of milk in them being 20%  and 80%  of the mixture .If 2 litres  of first are mixed with three litres of the second,what will be the ratio of milk to water in the new mixture?
+11:9     11:1     19:11         14:11
+
+ First Quantity of 2 litres	   400:1600
+ Second Quantity of 3 litres    	 2400:600
+
+		2800:2200 =>14:11
+
+ 8)The ratio in which the Darjeeling tea at Rs.32 per kg  is mixed with the assam tea at 25 Rs per kg so as to gain 20% by selling the mixture at Rs.32.40 per kg is
+4:5       2:5    5:2         2:3
+
+CP=SP/(1+PP)
+32.4/(1+20)
+32.4/1.2  ~27
+
+32x+25y=27x+27y
+5x=2y
+x:y   =   2:5
+   
+9)In what ratio must a merchant mix two varieties of rice costing Rs.15 and Rs.20 per kg respectively so as to get a mixture worth 
+Rs.1650 per kg?
+3:5           5:3         7:3           7:6
+
+16.5-15=1.5
+20-16.5=3.5
+
+3.5:1.5 =>7:3
+
+10)40 litres of a mixture of petrol and water contains 10% of water.The water to be added to make the water content 20% in the new mixture is:
+Intial water volume=0.10*40  =>4 lit
+Intial petrol volume=40 li-4 li  =>36 lit
+Total volume of new mixture =>  40 lit+x lit
+ 4+x/40+x  =>0.2
+ 4+x   =   8+0.2x
+  0.8 x=4
+   x= 5 
+5 litres of water is added
+
+11) The cost of Type I rice is Rs.15 per kg and Type 2 rice is Rs. 20 per kg.If both Type 1 and Type 2 are mixed in the ratio 1:4.
+Then the price per kg of the mixed variety of rice is:
+
+20 - x = 15+4x
+20-15=5x
+5=5x
+x=>1
+
+20-1=> 19 Rs/kg
+
+12)A merchant has 1000 kg of sugar part of which he sells at 8% 
+profit and the rest at 16%  profit.he gains 14% on the whole.The quantity sold at 16% profit is :
+
+14 = 8x+16(1000-x)/1000
+14000 = 8x+16000-16x 
+  8x=2000
+           x=250
+  1000-x=750
+
+So, the quantity sold at 16% profit is :  750kg
+		

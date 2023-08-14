@@ -58,3 +58,26 @@ N=89
 ->950-950
 ->0
 
+
+11)There are two sections A and B of a class,consisting of 40 and 48 students respectively.If the average weight of section A is 50kg and that of section B is 45kg.Find the average weight of the whole class.
+45.25	46.26	47.27	48.28
+
+40*50+48*45/40+48
+
+4160/88
+=>47.27
+
+12)In a class twenty five students are standing in a row the average weight of 1st 12 students is 14 kg. that of last twelve is 17 kg.If the average weight of all the 25 students is 18kg. then find the weight of 13th student.
+76kg	77kg	78kg	80kg
+
+12*14+x+17*12 = 25*18
+372+x=450
+x=78kg
+
+13)The average weight of 35 students in a school 40 kg.If 5 students of average weight 100kg left the school.Then the new average of remaining students is: 
+35kg	30kg	40kg	25kg
+
+40*35-500/30
+=>1400-500/30
+=>900/30
+=>30 kg
