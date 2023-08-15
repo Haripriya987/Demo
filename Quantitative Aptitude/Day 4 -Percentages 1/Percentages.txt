@@ -1,0 +1,48 @@
+1)24% is
+24/100
+Result => 12/50
+
+2)3/7=?(in terms of percentage)
+ 42.57 ~43%
+
+3)30%
+30/100
+3/10
+
+4)Ramesh intial speed was 50 kmph if he increased his speed by 20% then what would be the new speed
+10% of 50  is 5
+20% of 50 is 10
+50+10 =60
+New speed is 60kmph
+
+5)Sahirs wealth at the start of the year was 1000 Rs. and at the end of year it was Rs.1500 What was the increase in percentage at the end of the year.
+
+Difference is 1500-1000=500
+10% of 1000 is 100
+lly 50% of 1000 is 500
+So Increase in percentage is 50%
+
+6)Ram's intial speed was 5kmph and if he increased his speed by 14% then what would be his final speed?
+10% of 5 is 0.5
+1% of 5 is 0.05
+4% of 5 is 0.05*4 =>0.2
+
+14% of 5kmph is 0.5+0.2=0.7
+So, final speed is 5Kmph+0.7Kmph =>5.7Kmph
+
+7)If P=XY ,X was increased by 30% and Y was increased  by 20% then What is the percentage change in P?
+Assume P is 100%
+P----- X increase 30%----> 100+30=> 130% -----Y increase 20%-----> 130+26=> 156%
+
+Therefore Percentage change is 156-100 =>56%
+
+8)120(Increment by 10%) -> A (increment by 20%)  ->B (increment by 30%)  -> C What is the value of C?
+ 10% of 120 is 12 so A=>132
+A increase by 20% =>  132 increase by 20%  it means 132+26.4  So B is => 158.4
+B increase by 30% =>  158.4 increase by 30% it means  158.4+(15.84*3)  is =>    158.4+47.52 =>   205.92
+So , the value of c is 205.92
+
+9)A's Salary increased by 10% and then decreased by 10% .Then What is the Change in Percentage.
+  Assume Intial Salary is 100  ---increases by 10%---> 110 ---Decreased by 10%---> 110-10=>99
+  Therfore change in percentage is 100-99 => 1% Decreased in Percentage
+ 
