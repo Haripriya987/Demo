@@ -1,0 +1,62 @@
+1)The height of a Triangle is increased by 20%.What can be the maximum percentage increase in length and base so that  the increase in area  is restricted to a maxium of 50%
+50%    25%    14.28%      35%
+
+Assume product of length*breadth is 100
+100 ---20%+---->120 ---?--->150
+150-120/120
+30/120
+1/4 ~25%
+
+2)The price of sugar falls by 20%.How much sugar can be bought now with the money that was sufficient to buy 20kg of sugar previously?
+5kg   15kg    25kg    30kg
+Assume  1 kg of sugar is 100 , then 20 kg of sugar is 2000
+If price is decrease by 20% then 1 kg of sugar becomes 80
+2000/80 =>25 kg  
+
+3)Rajeev buys goods worth Rs.6000.He gets a rebate of 10% on it.he pays sales tax @20% .Find the amount he will have to pay for the goods?
+6400     6480     6520    6690
+ 
+6000 ---(-10%)--->  5400 ---(+20%)--->5400+1080 =>6480
+
+
+4)The price of an article is first decreased by 20% and then increased by 30% .If the resulting price is Rs.416.The original price of the article is
+350        405          400           450
+
+Assume intial price is  100
+100 ---(-20%)---> 80 ---(+30%)--->80+24=>104
+
+Final price is 416  ----> 104*4
+lly  Intial price is 100*4 -->400
+
+5)The length,breadth and height of an box in the shape of a cuboid are decreased by 10%,20%  and 10% respectively.Find the % change in the volue of the box
+35.2%        -35.2%        34%      33.33%
+
+100 ---(-10%)-->90---(-20%)--->72---(-10%)-->72-7.2 => 64.8%
+ 
+So ,Decrease in percentage is -35.2%
+
+6)The length  and breadth of a rectangle are changed by +10% and -10% .What is the percentage change in area of a rectangle
+-1%    2%  1%   -2%
+
+100 ---+10%--->110 ---(-10%)---> 99
+ so -1% decrease percentage
+
+7)I recently got a promotion by 23% hike in salary but due to recession it my salary was reduced by 32% What was change in my salary?
+15.89%decrease   15.89%increase   16.4% increase   16.4%decrease
+
+100 ---+23%--->123 ---(-32%)--->83.6
+So,16.4 decrease in percentage
+
+8)The cost of an article worth Rs.100 is increased by 25% first and again decreased by x%.The finalcost of the article is Rs.100.the value of x is 
+20%     21%  110 %   121%
+
+100 ---+25%--->125 ---(-x%)--->100
+125-100
+25/125
+1/5
+~20%
+
+9)The cost of an article worth Rs.1000 is increased by 20% first and again decreased by x%.The final cost of article is Rs.1000.the value of x is
+20%     21%   110%     16.67%
+
+The article increased by 1/5 then decrease in percentage is 1/6 ~16.67%
