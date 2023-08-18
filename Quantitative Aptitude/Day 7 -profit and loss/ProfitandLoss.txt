@@ -1,0 +1,35 @@
+1)A man buys a cycle for Rs.1400 and sells it at a loss of 15%.What is the selling price of the cycle
+s.p=1400-210
+     =1190
+
+2)A retailer buys a radio for Rs.225.His overhead expenses are Rs.15.He sells the radio for Rs.300 .The profit per cent of the retailer is:
+Total  cp is 225+15=240
+	sp=300
+	profit=300-240 =>60
+    profit percent=60/240 =>1/4  =>25%
+
+3)A tradesman marks his goods 10% above his cost price.If he allows his customers 10% discount  on the marked price.how much profit or loss does he make if any?
+Assume cp=100
+=> 100---(+10% )--->110(MP)---(-10%)-->99(SP)
+ so loss of 1% occurs
+
+4)A trader marks his gods 45% above the costprice and gives a discount of 20% on the markedprice.The gain% on goods he makes is:
+Assume cp=100
+=> 100 ---(+45%)-->145 (MP) ----(-20%)--->145-29=116 (SP)
+so gain% is 16%
+
+5)A shopkeeper purchased a chair marked at Rs.800 at two successive discounts of 10% and 15%respectively.He spent Rs.28 on transportation and sold the chair for Rs.800 .His gain percent is:
+800 --(-10%)-->720 --(-15%)-->612
+612+28 =>640
+640-- (x%)--->800
+800-640/640
+160/640 =>1/4 =>25%
+
+6)Which of the following succesive discounts is better to a customer
+a)20%  15%  10%  or
+b)25%  12%   8%
+In a) 100 --(-20%)--> 80  ---(-15%)-->  68  ---(-10%)-->61.2
+Net Discount =>100-61.2 =>38.8
+In b)100 --(-25%)-->   75 ---(-12%)--> 66   ---(-8%)--->60.72
+Net discount =>100-60.72  =>39.38
+So b gives better discount so it  is better 
