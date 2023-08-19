@@ -1,0 +1,78 @@
+1)In what time will Rs.500 give RS.50 as interst at the rate of  5% per annum
+500*(5/100)  =>25
+so after 2 years RS.50 is interest for Principal 500
+
+2)A sum of 1600 gives a simple interest of 252 in 2 years and 3 months.The rate of interest per annum is:
+2years +3 months =4*2+1  =>9
+252/9 =>28
+1600/100 *x=28
+x=28/16
+x=7/4
+x=1.75 % for 3 months
+1.75*4 => 7% rate of interest per annum
+
+3)Ashok took a loan of Rs.10000 with simple interest for as many years as the rate of interest.If she paid Rs.625 as interest 
+at the end of the loan period what was the rate of interest?
+625 =10000 *r*t/100
+625 =100*r*t  (from question r=t  )
+r^2 =625/100
+r =25/10
+r=2.5
+
+4)A sum fetched a total simple interest of Rs.420 at the rate of 3% per annum in 14 years.What is the sum
+x*14*3/100 =420
+x*0.42=420
+x=420/0.42
+x=42000/42
+x=1000
+so p=1000Rs
+
+5)X lent Rs.1000 to Y for 3 years and Rs.2000 to Z for 6 years on simple interest at the same rate of interest and received Rs.2250 in all from both of them as interest.The rate of interest per annum is:
+1000*r*3/100 +2000*r*6/100  =2250
+30r +120r =2250
+150 r=2250
+    15r=225
+       r=15 % per annum
+
+6)The principal which will amount to rs.270.40 in 2 years at the rate of 4% per annum compound interest is
+
+100---(+4%)-->104 ---(+4%)-->108.16
+108.16 *x =270.40
+x=2.5
+so Principal is 100*2.5  =>250
+
+7)The compound interest on Rs.2000 in 2 years .If the rate of interest is 4% per annum for the first year  and 3% per annum for the second year will be
+2000--(+4%)--->2080 ---(+3%)--->2142.4
+
+So, Compound interest is 2142.4-2000 =>142.4
+
+8)Find the compound interest on Rs.5000at a rate of 10% per annum  for 1.5 years compounded half yearly
+for Half yearly rate of interest is 10/2 =>5% 
+1.5 years  half yearly means 1.5*2 =>3
+
+5000---(+5%)---> 5250 ---(+5%)--->5512.5 ---(+5%)---> 5788.12
+ so CI is 788.12
+
+9)Find the compound interest on Rs.8000 at a rate of 20% per annum for 9 months compounded quarterly.
+for Quaterly  rate of interest is 20/4 =>5% 
+9 months Quarterly means 9/12*4 =>3 
+
+8000 ---(+5%)---> 8400---(+5%)---> 8820 ---(+5%)---> 9261
+So CI is 1261  
+
+10)The difference between simple interest and compound interst of a certain sum of money at 20% per annum for 2 years is rs.48 Then the sum is:
+Formula to find principal when SI and CI difference given for two years and rate of Interest is p(r/100)^2
+					         p(20/100)^2=48
+					                 p(1/25)=48
+						       p=48*25  =>1200
+ 
+
+11)If the compound interst on acertain amount of 20% per annum for 3 years is Rs.1092 the find the simple interest on the same amount at the same interest rate and for the same period 
+Assume principal is 100
+  
+100 ---(+20%)--> 120 ---(+20%)--> 144 ---(+20%)--->172.8
+  so CI is 172.8 -100 =>  72.8x=1092   =>x=15
+so principal is  100*15 = 1500
+Now SI is   1500 *60/100  => 900
+
+
