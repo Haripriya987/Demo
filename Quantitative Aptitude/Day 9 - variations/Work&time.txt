@@ -1,0 +1,40 @@
+1) A can do a piece of work in 12 days and B  in 15 Days.They can work together for 5 days and then B left .The days taken by A to finish the remaining work is
+A's work  is 12 days
+B's work is 15 days
+LCM of 12,15  =>60
+A can do 60/12 => 5 units
+B can do 60/15 =>  4 units
+In 5 days they both completed 45 units.
+Still 15 units left . So A alone complete remaining work in 3 days 
+
+
+2)A and B can do a piece of work in 20 days .A alone can do it in 24 days then in how many days can B alone do it
+A and B can do in 20 days
+A alone can do in 24 days
+B can do in  x days
+1/24+x=1/20
+x=1/20-1/24
+x= 6-5/120
+x=1/120 
+so B alone can do  in 120 days.
+
+3)A,B and C can do a work separately in 16,32 and 48 days respectively .Total time taken by A,B and C together to finish the job?
+LCM of 16,32,48  is  96 units
+A can do 6 units per day
+B can do  3 units per day
+C can do 2 units per day
+A+B+C  =6+3+2 =>11  =>  96/11 => 8.7 days 
+
+4)Two pipes can fill a tank with water in 15 and 12 hours respectively and a third pipe can empty it in 4 hours.If the pipes be opened in order at 8,9, and 11 am respectively, the tank will be emptied at
+
+LCM of 15,12,6  =>60
+So Rate of work by pipe1=>4
+	               pipe2=>5
+                    Third pipe =>15 
+So workdone in one hour => 4+5-15 => -6 
+At time  8(pipe)    9(p1+p2)   10(p1+p2)      11
+                     4                4+5          4+5             4+5-6
+so, 8+9+10 =>4+9+9  => 22 
+22/6 =>  3 hours 40 minutes
+11+ 3 hours 40 minutes => At 2.40 pm tank will be empty
+
