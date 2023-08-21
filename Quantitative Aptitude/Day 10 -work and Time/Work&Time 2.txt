@@ -1,0 +1,71 @@
+
+5)If 10 people can do a job in 20 days ,then 20 people with twice the efficiency can do the same job in 
+Total work Measurement => 10*20 =>200
+ Then, 20*2*x = 200
+40x =200
+x=5 
+So 20 people with twice the efficiency can do the same job in  5 days.
+
+6)If 72 men can build a wall of 280 m length in 21 days. How many men could take 18 days to build a similar type of wall of length 100 m?
+30	10	18	28
+For one day 280 m wall required is => 72*21/280
+For one day 100 m wall required is  => x*18/100
+72*21/280 =x*18/100
+x  =>  72*21*100/18*280
+x =>30
+
+
+7)12 workers can do a piece of work in 300 days.At the end of 150 days, the number of workers employed is doubled .So in how many more days will the work be completed?
+Total work  =>12*300  =>3600 
+After 150 days the work completed is 12*150 => 1800
+Remaining work is 1800 .Now, employees are doubled
+So 12*2 *D=1800
+  D=75 days  are needed to complete remaining work
+
+8)seventy five men are employeed to lay down a railway line in 3 months.Due to certain emergency conditions , the work was to be finished in 18 days .How many more men should be employed  to complete the work in the desired time?
+Total work is =>75*3*30 
+To finish in 18 days  No of employees need is  18*x=75*3*30
+				        X=375
+Already 75 employees there we need 300 more employees
+
+
+9)If 4 men or 8 women can do a piece of work in 15 days ,in how many  days can 6 men and 12 women do the same piece of work
+Here we take  1M=2W
+So the work in Men Days =>4*15 =>60 W units
+Now 6M +12 W complete in no of days
+so 12W => 6M
+Then,  6M+6M =>12M *x =60
+x=> 5days
+
+
+10)3 men and 4 boys can complete a piece of work in 12 days .4 men and 3 Boys can do the same work in 10 days. Then 2 men and 3 boys can finish the work in number of days?
+36M+48B = 40M+30B
+18B=4M  =>1M=4.5B
+ Total work in BUnits is  =>18+3 =>21*10  =>210Bunits
+Now,
+2M +3B  =>9B+3B  =>12B  
+No of days required is 210/12  =>17.5 days or 35/2 Days 
+
+
+11)If 10 men complete a piece of work in 30 days , how many men are required to complete the same in 25 days?
+Total  work => 10*30  =>300
+x*25 =>300
+ x=>12 Men
+
+12)Shubam can do 25% of work in 10 days.How many days will he take to complete a work equal to 5 times this work ?
+So to complete the work he requires 40 days
+For 5 times equal work completes in  =>40*5 =>200 days
+
+13)10 men can dig a hole in 18 days .After 6 days ,5 more men joined .After how many days the remaining work would be completed?
+Total work => 10*18 =>180 units
+After 6 days means =>  10*6 =>60 units are completed
+Remaining 120 units are left
+(10+5)*x=120
+15*x  =120
+x=8 days are required to complete the remaining work
+
+
+14)18 men working 8 hours a day can complete a work in 5 days .Working at a rate of 6 hours a day , the number of men required to finish the work in 10 days is : 
+
+Here 18*8*5 = x*6*10
+Solving we get x =>12 Men required to complete the remaining work.
