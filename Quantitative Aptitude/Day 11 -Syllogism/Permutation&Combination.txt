@@ -1,0 +1,17 @@
+Permutations and combinations
+
+1)What is the value of 6!?
+6*5*4*3*2*1 => 720
+
+2)What is the value of 10C3?
+10*9*8/3*2*1
+ =>120
+
+3)find the number of ways in which we can select 2 men out of 11 men?
+11C2  =>  11*10/2*1  => 55 ways
+
+4)There are 10 boys and 8 girls in a group.Two boys are to be selected and two girls are to be selected for the play.In how many ways can they be selected?
+ 18C4 => 18*17*16*15/4*3*2*1  =>6*17*2*15
+10C2  => 45
+8C2 => 28
+10C2*8C2/18C4   =>   45*28/17*15*6*2   =>   3*14/17*6   =>   7/17 

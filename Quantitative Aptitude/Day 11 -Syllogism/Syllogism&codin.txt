@@ -1,0 +1,111 @@
+
+8)Statements
+All A are B
+All B are C
+All C are D
+conclusion:
+All B are D
+All C are A
+All A are D
+All D are B
+
+Only 1 and 3 conclusions are true
+
+9)Statements
+Some eyes are ears
+Some ears are lungs
+All lungs are hands
+Conclusion
+Some hands are eyes
+Some hands are ears
+Some lungs are eyes
+No hand is eye
+
+Only 2 conlclusion is true
+
+10)Statements
+All liquids are solids
+Some solids are gases
+All gases are clouds
+Conclusion
+Some clouds are solids
+Some clouds are liquids
+Some gases are liquids
+Some solids are clouds
+
+Only 1 and 4 conlusions are true
+
+11)Statements
+All A are B
+No B is C
+Some D are C
+Conclusion:
+Some D are A
+Some D are B
+Some A are C
+
+All conclusions are false
+
+12)Statements
+Some snaps are whatsapp
+All Hikes are Whatsapp
+All Whatsapp are Facebook
+Conclusion:
+Some facebook are snaps
+All hikes are facebook
+Some snaps are hikes
+Some snaps are facebook
+
+1,2 & 4conclusions are true
+
+13)Statements
+some cows are deer.
+No deer is dog
+Some dogs are fox
+Conclusion:
+Some cows are fox
+Some foxes are deer
+
+No conclusion is true
+
+14)Statements
+Some points are not scales
+No scale is circle
+some Circles are triangles
+Conclusion:
+No point is circle
+No triangle is point
+
+No conclusion is true
+
+15)Statements
+Some leaves are fruits
+All Branches are fruits.
+Some roots are branches
+Conclusion:
+Some roots are fruits
+Some branches are leaves
+No leaf is branch
+Some leaves are roots
+
+Either 2 or 3 true and 1 follows
+
+16)In a certain code 'SUDHIR' is written as 'HIRSUD'
+How would 'VISHES' be written in that code?
+HESVIS
+
+17)In a certain code 'PURPOSE' is written as 'UPPRSOE'
+How would 'SUDHI' be written in that code?
+USHDI
+
+18)In a certain code 'SUDHIR' is written as 'QTBGGQ'
+How would 'ARUN' be written in that code?
+YQSM
+
+19)If AMAN is written as 'BNBO' in a certain code then ARUN is written as
+BSVO
+
+20)If AMAN is written as 'CLCM' in a certain code then ARUN is written as
+CSWO
+21)In a ceratin code if '1000' is written as '1728' and 125 is written as '343' .In the same code '512' is written as :
+1000
