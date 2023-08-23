@@ -1,0 +1,57 @@
+
+
+5)10 people at a party shake hands once with everyone else in the room.How many handshakes took place?
+10C2  =>  10*9/2*1  => 45
+
+6)A student is to answer 10 out of 13 questions .In how many ways he can do this:
+13C10  => 13C(13-10) =>  13C3 =>13*12*11/3*2*1  =>26*11 => 286 ways
+
+7)In how many ways can we pick any number of balls from a pack of three different balls?
+3C0+3C1+3C2+3C3  =>  2^3  => 8 ways
+
+8)In how many different ways can we pick any number of coins from five different coins?
+2^5-1 =>32 WAYS
+
+9)If captain and vice-captain are in the team then in how many ways  can we select a team of 10 players from a group of 15 players?
+13C8  ==13C5
+10)A committee of five members is to be formed out of 3 trainees, 4 professors and 6 research associates. In how many different ways this can be done if the committee should have all the 4 professors and 1 research associate or all 3 trainee and 2 professors
+4*6C1 +3*4C2
+24+18  =>42 ways
+
+11)Find the number of non-negative integer solutions of x+y+z=10?
+n+r-1Cr-1  =>  10+3-1C3-1 =>  12C2 =>  66 ways
+
+12)Find the number of positive integer solutions of x+y+z=10?
+Here count starts from 1 to 10 
+So 0 is omitted  10-3 =>7
+7+3-1C3-1
+9C2 =>  36 ways
+
+13)In how many different ways can the letter of the word 'ARMOUR' be arranged?
+R is repeating 2 times so,  6!/2!
+
+14)In how many different ways can the letter of the word 'ARROW' be arranged?
+R is repeating 2 times so,  5!/2!
+
+15)How many ways can 4 prizes be give away to 3 boys if each boy is elgible for all the prizes?
+3^4 ways  
+
+16)Find out the number of ways in which 6 rings of different types can be worn in 3 fingers?
+3^6  ways
+
+17)In how many ways can the letter of the word HIPPOPOTAMUS can be arranged
+12!/3!2!
+
+18)In how many different ways can the letter of the word SOFTWARE be arranged in such away that the vowels always come together?
+6!*2! ways 
+19)How many three digit integers can be formed using the digits 0,1,2,5,8 and 9 (repetition of digits not allowed)
+5*5*4 =>100 ways
+
+20) what will be the number of integers formed for the question when repetitions are allowed?
+5*6*6 =>180 ways
+
+21)10 persons we invited to a party.In how many ways can they be seated in around table such that two particular persons sit   on either side of the host?
+7!*2!
+
+22)If 7 people are going to sitting at a round table but Kriti will not sit next to Heen how many different ways can the group of 6 sit?
+6!-5!*2!
