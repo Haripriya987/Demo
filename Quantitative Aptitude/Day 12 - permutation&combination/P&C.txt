@@ -15,8 +15,8 @@
 9)If captain and vice-captain are in the team then in how many ways  can we select a team of 10 players from a group of 15 players?
 13C8  ==13C5
 10)A committee of five members is to be formed out of 3 trainees, 4 professors and 6 research associates. In how many different ways this can be done if the committee should have all the 4 professors and 1 research associate or all 3 trainee and 2 professors
-4*6C1 +3*4C2
-24+18  =>42 ways
+1*6C1 +1*4C2
+6+6  =>12 ways
 
 11)Find the number of non-negative integer solutions of x+y+z=10?
 n+r-1Cr-1  =>  10+3-1C3-1 =>  12C2 =>  66 ways
@@ -43,7 +43,7 @@ R is repeating 2 times so,  5!/2!
 12!/3!2!
 
 18)In how many different ways can the letter of the word SOFTWARE be arranged in such away that the vowels always come together?
-6!*2! ways 
+6!*3! ways 
 19)How many three digit integers can be formed using the digits 0,1,2,5,8 and 9 (repetition of digits not allowed)
 5*5*4 =>100 ways
 
@@ -51,7 +51,9 @@ R is repeating 2 times so,  5!/2!
 5*6*6 =>180 ways
 
 21)10 persons we invited to a party.In how many ways can they be seated in around table such that two particular persons sit   on either side of the host?
-7!*2!
+8!*2!
 
 22)If 7 people are going to sitting at a round table but Kriti will not sit next to Heen how many different ways can the group of 6 sit?
+(7-1)! For all arrangements
+If both sit together (5!*2!)
 6!-5!*2!
