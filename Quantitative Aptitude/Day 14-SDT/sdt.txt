@@ -1,0 +1,49 @@
+1)5km/hr =?(conversion)
+5*5/18 =>25/18 m/s
+
+2)An athelete runs 200 metres race in 24 sseconds.His speed in km/hr
+
+200/24  => 50/6*18/5  => 30Km/hr
+
+3)If a man covers 100 km in 10 hours, then how much time would he take to cover 150 km distance at the same speed?
+
+15Km/hr speed
+
+4)A man covers a particular distance in 10 hours at aspeed of 20kmph.If he increases his speed by 50% then in what time would he take to cover the same distance?
+
+6.66 hours
+
+5)If a man walks 20km at 5 km/hr, he will be late by 40 minutes .If he walks at 8 km/hr ,how early from the fixed time will he reach?
+Intial time is 4H+2/3H => 14/3 hrs
+
+Next one is 20/8 =>  5/2 hrs
+
+difference is 14/3-5/2  =>28-15/6  =>13/6  hrs early
+
+6)A boy is late by 9 minutes if he walks to school at a speed of 4 km/hr.If he walks at the rate of 5 km/hr , he arrives 9 minutes early.The distance to this school is 
+
+Distance=s1*s2(t1+t2)/s2-s1
+               => 4*5(9+9)/5-4
+               =>  20*81/60  => 6 km
+             
+7)A train covers a distance between station A and station B in 45 minutes .If the speed of the train is reduced by 5 km/hr ,then the same distance is covered in 48 minutes.The distance between Station A and B is
+speed => x/45/60 => 4x/3 kmph
+
+speed reduced by 5 km/hr => x/4x/3 -5 = 48/60  => 60 km
+
+8)Two persons ride towards each other from two places 55 km apart ,one riding at 12 km/hr and the other at 10 km/hr .In what time will they be 11 km apart?
+Relative speed => 12+10 =>22 km/hr
+noe distance between them is 55-11=44 km/hr
+44/22 => 2km/hr
+
+
+9)The  distance between two cities A and B is 330 km.A train starts from A at 8 am and travels towards B at 60km/hr Another train starts from B at 9 am and travel towards A at 75 km/hr .At what time do they meet?
+common factor is  of 60 ,75 is 300
+A reach at 300 km at 1 pm
+similarly B reach at 1 pm
+at 1 pm
+
+10)A bus moving at a speed of 45 km/hr overtakes a truck 150 metres ahead going in the same direction in 30 seconds .The speed of the truck is 
+
+150/30 * 18/5  = 45-x  => 27 kmph
+

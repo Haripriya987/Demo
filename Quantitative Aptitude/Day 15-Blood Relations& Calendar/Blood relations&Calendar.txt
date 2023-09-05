@@ -1,0 +1,73 @@
+Blood Relations:
+There are six persons in aroom namely A,B,C,D,E and F. A and E are Brothers.B and D are daughters of  the brother of C's father.F is the sister of E ,C is the only son of A's uncle.
+
+1)How many male persons are there?
+3
+
+2)How is C related to F?
+Husband
+
+3)How many female persons are there?
+3
+
+4)D is A's.....?
+cousin
+
+A,B,C,D,E and F are six members of a family.C is  not the mother of B but B is the son of C.A and C are married couple.E is the brother of C.F is the brother of  B.D is the daughter of A.
+
+5)E is D's....?
+uncle
+
+6)Which of the following are pair of females?
+AD   BD   CA   BA
+AD are females
+
+
+7)E'S wife is  --?
+cannot be determined
+
+8)How many kids does A have?
+3
+
+9)How many female members are in the family?
+2
+
+10)B's mother is _?
+A
+
+11)July 1,1777 was Monday.what day of the week was it on july 1,1778
+Tuesday
+
+12)January 1 ,2000 was sunday.What day of the week was it on January 1,2001?
+Tuesday
+
+13)1 nov 2003 was sunday.What day of the week was it on 1Dec 2004?
+Wednesday
+
+14)5 june 2015 was Monday.What was the day of the week on 6 June ,2014?
+Monday
+
+15)What was the day on 15 August 1948?
+Sunday
+
+16)On what dates of January ,2015 did sunday fall?
+4,11,18,25
+
+17)what was the day of the week on 25 june ,2016?
+Saturday
+ 
+18)Today is Monday.After 76 days it will be 
+sunday
+
+19)which of the following is not a leap year?
+1782  1888  1616   2004
+1782 not a leap Year 
+
+20)Maxium no days in 10 consecutive years is :
+ 3653
+	             	
+		
+
+
+
+
