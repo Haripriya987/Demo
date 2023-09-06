@@ -1,0 +1,62 @@
+Applictions of SDT
+1)A train,300 m long ,passed a man, walking along the line in the same direction at the rate of 3 km/hr in 33 seconds.The speed of the train is :
+3*5/18 =>5/6 m/sec
+(x-5/6)*33=300
+x-5/6= 100/11
+x ~ 9.83 m/sec
+
+
+2)A train 100 metres long meets a man going in opposite direction at 5 km/hr and passes him in (36/5) seconds. What is the speed of the train in km/hr?
+x+25/18=5* 100/36
+ x~ 12.5 m/sec
+
+3)A train 120 m long takes 6 seconds to pass a telegraph post,the speed of train is  
+x*6 =120  => 20m/sec
+
+4)A train goes from Ballugunge to sealdah at an average speed of 20 km/hr and comes back at an average speed of 30km/hr . the average speed of the train for the whole journey is 
+2*s1*s2/s1+s2
+2*30*20/30+20  =>1200/50 =>24 km/hr
+
+5)Two trains 108 and 112m in length are running towards each other on the parallel lines at a speed of 45 km/hr and 54 km/hr respetively. To cross each other after they meet , it wil take
+55/2 * t =108+112  
+t = 220*2/55
+   t= 8 m/sec
+
+6)A train travels at a certain average speed for distance of 63 km and then travels a distance of 72 km at an average speed of 6 km/hr more than its original speed. If it takes 3 hours to complete the total journey , what is the original speed of the train in km/hr?
+63/x+72/x+6 =3
+21/x+24/x+6 =1
+21(x+6)+24*x =x^2+6x
+solving we get x => 42 km/hr
+
+
+7)A boat moves with a speed of 5 kmph in still water. when the river flows at 1 kmph , the boat takes 80 minutes to go from a point A to B and come back. what is the distance between the two points.
+Su =4kmph
+Sd = 6 kmph
+d/4+d/6 =80/60
+10d/24 =80/60
+
+d= 16/5 km
+Total distance is 16/5*2  =>32/5  =>6.4 km
+
+
+8)Arjun can swim at 10 kmph in stil water.If the velocity of water is 4kmph and it takes him 10 hours to swim to a place and come back , how far is the place?
+Su => 6kmph
+Sd => 14 kmph
+ d/6+d/14 = 10
+d= 74.6  
+Total distance is  149.2 km
+
+9)A boat goes 6 km in one hour in still water ,but takes thrice  as much time in going the same distance against the current .The speed of current (in kmph) is:
+Sd=6kmph
+Su=2kmph
+Speed of boat is = 4kmph
+Speed of stream is =2kmph
+
+10)At what time between 2 and 3 'o clock will the hands of a clock coincide each other ?
+After 10 minutes 8 seconds
+
+11)At what time between 2 and 3 'o clock will the hands of a clock  from an angle of 90 from each other?
+After 27 minutes
+
+12)Find the number of right angle formed by a clock in a day
+44 right angles
