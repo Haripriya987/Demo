@@ -1,0 +1,47 @@
+Table Problems:
+
+1)Average number of male candidates who qualified exam in 2010,2011 and 2014
+17200+17150+22275 => 56625/3 => 18875
+
+2)What is the total number of femal candidates who qualified the exam in years 2010,2012 and 2014 together
+4300+11375+10125  => 25800
+
+3)Total no of male candidates  who qualified in year 2011 is approximately what percent of total no of candidates who qualified the exam in year 2010?
+21500*x/100 =17150 
+x= 72%
+
+Table2 problems :
+
+1)What is the maximum possible score run by A in four matches is:
+199
+
+2)What is the maximum possible percentage contribution of E in the total runs scored in the four matches?
+Approximately  18% 
+
+
+
+Line Problems:
+1)In which race speed of Amit is maximum
+B race  200/5 => 40 m/sec
+
+2)In which race speed of Amit is minimum
+C race 100/10 =>10 m/sec
+
+3)Ratio of speeds in race A and race B is 
+20: 40  =>1:2
+
+4)What is the average speed of Amit in all races
+20+40+10+20+35  => 125/5  => 25m/sec
+
+
+Piechart problems:
+1)Total number of beauty creams sold by B and F together is what percent more or less than that of creams sold by A and D together
+72+90  => 162
+27+96 =>  123
+
+32% more
+
+2)If 100/3 % out of total creams sld by B were face wash,50/3 % out of total creams sold by the same company were face cream and rest were other creams find the other beauty creams sold by B?
+
+ 43200-14400-7200  => 21600
+
