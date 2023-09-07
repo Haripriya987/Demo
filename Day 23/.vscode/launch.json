@@ -1,0 +1,86 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LayoutFlowPanefx",
+            "request": "launch",
+            "mainClass": "LayoutFlowPanefx",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "ComboBoxfx",
+            "request": "launch",
+            "mainClass": "ComboBoxfx",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "DateColorPickerfx",
+            "request": "launch",
+            "mainClass": "DateColorPickerfx",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "TextArea",
+            "request": "launch",
+            "mainClass": "TextArea",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "CheckBoxFx",
+            "request": "launch",
+            "mainClass": "CheckBoxFx",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "EventHandleDemo",
+            "request": "launch",
+            "mainClass": "EventHandleDemo",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "PropertyDemo",
+            "request": "launch",
+            "mainClass": "PropertyDemo",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "FirstFx",
+            "request": "launch",
+            "mainClass": "FirstFx",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FirstDemo",
+            "request": "launch",
+            "mainClass": "FirstDemo",
+            "projectName": "Day 23_e90a28a2",
+            "vmArgs": "--module-path \"C:\\Program Files\\Java\\javafx-sdk-20.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
