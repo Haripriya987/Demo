@@ -1,0 +1,104 @@
+Problems On Numbers:
+1)The sum of squares of 3 consecutive positive numbers is 365 .The sum of the numbers :
+30     33   36  50
+
+33
+
+2)The sum of a two digit number and the number obtained by reversing its digits is a square number.How many such numbers are there?
+5 6 7 8 
+5
+3)When a number is divided by 357 the reaminder is 39 .If that number is divided by 17.the reaminder will be:
+0   3       5   11
+357+39/17  =>  396/17  => 5 is reaminder
+
+4)In a school 1/10 of the boys are the same in number 1/4  of the girls.The ratio of boys to girls in that class is:
+2:1   5:2   4:3    3:2
+
+250:100  => 5:2
+
+5) The numerator of a fraction is four less than its denomiator.If the numerator is decreased by 2 and its denominator is increased by 1 , then the denominator becomes eight times the numerator. Find the fraction:
+3/8  3/7   4/8   2/7
+
+3/7
+
+6)Which term if the AP 3 ,15,27,39,.... will be 132 more than its 54 term
+65   66   63  76
+
+54+132/12 =>  54+11 => 65 term
+
+7)How many three digit numbers are dvisible by 7?
+128   166   193    156
+
+105,112,   .......,994
+No of terms is =>  994-105/7  +1 =>  127+1  =>128 terms
+
+8)An AP consists of 50 terms of which 3rd term is 12 and the last term is 106 .Find the 29 term?
+73   64  34   96
+
+a+49d = 106
+a+ 2d = 12
+Then d= 2  , a=8 
+a+28d =>  8+28*2  => 64
+
+9)Find the 20th term from the last term of the AP:3,8,13..........,253
+187      158     169     189
+No of terms are  => 253-3/5 +1  => 250/5+ 1 => 50+1 =>51 
+20th term From Last is => 3+(31)*5  => 158
+
+10)What is the sum of all 3 digit numbers that leave a reaminder of '2' when divided by 3?
+897   164850    164749    149700
+101,104,107,................,998
+Sum is => 300/2(101+998)  => 150*1099 
+164850
+
+11)The sum of three numbers in AP is 21 and the product of their extremes is 45.find the numbers.
+5,7 and 9     9,7 and 5  a and b  none
+Both a and b
+
+12)find the 11th term of series 1,4,16, ....
+4^10   4^9    4^11  none of these
+4^10
+
+13)Find the sum of the series 4,2,1,0.5,0.25 ,....
+4, 8  1  none
+4/1=1/2  => 8
+
+14)The 7 th  term of GP is 16 times the 3 rd term.What will be the 1 term when its 4 term is 24?
+2    3    4    5 
+t4=a.r^3  =>24
+t7=a.r^6  = 16.a.r^2
+     r^4 =16
+        r=2
+       a=3
+
+15)Find the reaminder of 80*81*84/85
+20    45    65     39
+
+16)Find the reaminder of (20^127)/7
+1    2   3    6
+
+20^(6*21)*20/7  =>  1*20/7  =>6
+
+17)20*23*24*26/100 will give a reaminder =?
+20  15   10   40
+
+1*3*4/5  =>2*20 =40
+
+18)find the reaminder when 66^105 is divided by 17 
+15   7   6  8
+
+8
+19)What is the sum of single digit numbers which cannot be the the unit(last) digit of any perfect square
+18          9         20        12
+
+2+3+7+8 =>20
+
+20)What is the units digit of the number 23^34*34^57*57^61
+9   8  2   6
+9*4*7 => It gives 2 in units place 
+
+
+21)What will be the last two digits of the following expression 67*54*29*28*47?
+25  13   52   26
+
+52
