@@ -1,0 +1,35 @@
+Operating system :
+	It acts as an interface between Hardware and Software.Hardware means Physical components of a computer.Software is nothing but collection of programs.
+The main functions of os are Process managemant,memory management,I/O management etc
+Different types of OS are there : windows ,Linux ,MacOs
+Windows is paid and proprietary software .It means it is not freely available on online.
+Linux is free and open source .That allows anyone to use,study ,change and distribute its purpose.
+Every Linux based OS involves the Linux kernel—which manages hardware resources—and a set of software packages that make up the rest of the operating system. Kernel acts as a heart of the OS.
+Linux has a number of different versions to suit any type of user. They will also called as " flavours ".
+Popular Linux distributions include:
+LINUX MINT
+MANJARO
+DEBIAN
+UBUNTU
+ANTERGOS
+SOLUS
+FEDORA
+ELEMENTARY OS
+OPENSUSE
+
+Working with Shell:
+Linux shell: It is a program that allows text based interaction between user and the OS .It is a powerful tool.
+There are different types of commands are there.
+1)Internal or Built in commands :These are part of shell commands .For ex: mkdir,cd pwd etc...
+2)External Commands :These are binary programs or scripts located in the distinct files in the system.These are installed by user. ex:mv.date,uptime
+
+pwd     - present working directory
+cd         -  change directory
+ls          - list contents
+mkdir  - make a directory
+mv       - move file or directory
+cp        - copy file
+rm      -  remove file or directory
+cat      - concatenated command
+
+
