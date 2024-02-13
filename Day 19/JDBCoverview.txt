@@ -36,6 +36,7 @@ dname=rs.getString("dname");
 //5)Get Result set
 System.out.println(dno+ " "+ dname);
 }
+con.close();
 }
 catch(Exception e){}
 }
