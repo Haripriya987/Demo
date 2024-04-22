@@ -9,7 +9,7 @@ public static int CommonCharactersCounter(String str1,String str2){
 
   for (char ch : str1.toCharArray()) {
       charCountMap.put(ch, charCountMap.getOrDefault(ch, 0) + 1);
-  }k
+  }
   for (char ch : str2.toCharArray()) {
       if (charCountMap.containsKey(ch)) {
           count++;
