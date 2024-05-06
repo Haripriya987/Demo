@@ -1,4 +1,4 @@
-public class ChocolatesCount {
+public class ChocolatesCount 
   {
     public static int chocolateCount(int t,int c){
         if(t<c)
@@ -21,4 +21,4 @@ public class ChocolatesCount {
 }
 
   
-}
+
