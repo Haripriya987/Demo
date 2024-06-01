@@ -1,28 +1,32 @@
-import java.util.HashSet;
 
-public class HappyNumber {
-    public static boolean isHappy(int n) {
-        HashSet<Integer> hs = new HashSet<>();
-        while(n!=1){
-            if (hs.contains(n) == false){
-                hs.add(n);
-            } else {
-                return false;
-            }
+public class HappyNumber{
 
-            int tot = 0, sum = 0;
-            while(n>0){
-                tot = n%10;
-                n=n/10;
-                sum+=tot*tot;
-            }
-            n= sum;
-        }
-        return true;
-}
-  public static void main(String[] args) {
-    System.out.println(isHappy(19));
+  public static boolean isHappy(int num){
 
+    int slow=num;
+    int fast=num;
+
+    do{
+      slow=square(slow);
+      fast=square(square(fast));
+    }while(slow!=fast);
+
+    return fast==1;
   }
-  
+  public static int square(int num){
+    int s=0;
+    while(num>0){
+      int rem=num%10;
+      s+=(rem*rem);
+      num=num/10;
+    }
+    return s;
+  }
+
+  public static void main(String args[]){
+ 
+    System.out.println(isHappy(12));
+    
+  }
+
 }
